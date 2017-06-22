@@ -2,7 +2,7 @@
   "name": "clean-blog",
   "title": "Clean Blog",
   "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/clean-blog",
+  "homepage": "mshassium.github.io",
   "author": "Start Bootstrap",
   "license": {
     "type": "MIT",
@@ -22,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog.git"
+    "url": "https://github.com/mshassium/mshassium.github.io"
   }
 }
