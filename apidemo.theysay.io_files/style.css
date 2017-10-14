@@ -1,0 +1,175 @@
+/**
+ * Additional styles to override Materialize.css files
+ */
+
+.bold-text {
+  font-weight: bold;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block.inline{
+  display:inline-block !important;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.img-theysay-logo-welcome {
+  max-width: 100px;
+}
+.footer-text {
+  font-size: small;
+}
+.footer-link {
+  color: #9e9e9e;
+  opacity: 0.8;
+}
+.footer-link:hover {
+  color: white;
+  opacity: 0.7;
+}
+.footer-copyright {
+  font-size: x-small;
+  color: #9e9e9e;
+  opacity: 0.5;
+}
+.sentiment-score-bar {
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: xx-small;
+  vertical-align: bottom;
+}
+.sentiment-bar-chart {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sentiment-bar-label {
+  font-size: xx-small;
+}
+.theysay-brand-red-background {
+  background-color: #DA291C;
+}
+.theysay-brand-purple {
+  color: #E63888;
+}
+.theysay-brand-orange {
+  color: #FF8200;
+}
+.theysay-brand-purple-background {
+  background-color: #E63888;
+}
+.theysay-brand-deep-purple-background {
+  background-color: #582C83;
+}
+.theysay-brand-light-blue {
+  color: #0086D6;
+}
+.theysay-brand-light-blue-background {
+  background-color: #0086D6;
+}
+.sentence-class-label {
+  font-size: small;
+}
+.sentiment-green {
+  background-color: #689f38 !important;
+}
+.sentiment-orange {
+  background-color: #ffb74d !important;
+}
+.sentiment-red {
+  background-color: #ff1744 !important;
+}
+.sentiment-positive {
+  background-color: #689f38 !important;
+}
+.sentiment-neutral {
+  background-color: #ffb74d !important;
+}
+.sentiment-negative {
+  background-color: #ff1744 !important;
+}
+.sentiment-confidence {
+  background-color: #e3f2fd !important;
+}
+.theysay-brand-gray {
+  color: #9e9e9e;
+}
+.agitation-color {
+  background-color: #E63888 !important;
+}
+.anger-color {
+  background-color: #ff1744 !important;
+}
+.calmness-color {
+  background-color: #e3f2fd !important;
+}
+.certainty-color {
+  background-color: #0086D6 !important;
+}
+.disliking-color {
+  background-color: #ff1744 !important;
+}
+.doubt-color {
+  background-color: #582C83 !important;
+}
+.fear-color {
+  background-color: #ff1744 !important;
+}
+.happiness-color {
+  background-color: #689f38 !important;
+}
+.liking-color {
+  background-color: #689f38 !important;
+}
+.sadness-color {
+  background-color: #ff1744 !important;
+}
+.surprise-color {
+  background-color: #E63888 !important;
+}
+.emotion-bar-image {
+  height: 340px;
+}
+.emotion-bar-overlay {
+  position: relative;
+  top: 100%;
+  transform: translateY(-100%);
+}
+.parse-stack-column {
+  padding: 5px 5px;
+  font-size: small;
+}
+.parse-stack-column-content {
+  color: #009688;
+  font-size: small;
+}
+.dependency-relation-label {
+  padding: 0 6px;
+}
+.nsubj-dependency-label {
+  background-color: #0086D6;
+  color: white;
+}
+.amod-dependency-label {
+  background-color: #e3f2fd;
+}
+.advmod-dependency-label {
+  background-color: #E63888;
+  color: white;
+}
+.dobj-dependency-label {
+  background-color: #689f38;
+  color: white;
+}
+.prep-dependency-label {
+  background-color: #E63888;
+  color: white;
+}
+.root-dependency-label {
+  background-color: #582C83;
+  color: white;
+}
+
