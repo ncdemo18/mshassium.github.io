@@ -1167,7 +1167,7 @@
                     if (response.length > 0) {
                         testName = response[i].name;
                     }
-                    var newDivBlock = '<tr> <td> <div class="sentiment-bar-chart"> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar style="'+allAnswers[i].one+'"></a> </div> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar" style="'+allAnswers[i].two+'"></a> </div> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar"style="'+allAnswers[i].three+'"></a></div> </div> </td> <td> <div class="sentiment-bar-label">POS 0.9 </div> </td> <td>' + testName + '</td> </tr>'
+                    var newDivBlock = '<tr> <td> <div class="sentiment-bar-chart"> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar" style="'+allAnswers[i].one+'"></a> </div> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar" style="'+allAnswers[i].two+'"></a> </div> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar"style="'+allAnswers[i].three+'"></a></div> </div> </td> <td> <div class="sentiment-bar-label">POS 0.9 </div> </td> <td>' + testName + '</td> </tr>'
                     jQuery("tbody").append(newDivBlock);
                 }
             });
