@@ -1125,17 +1125,9 @@
     jQuery(document).ready(function () {
         var settings = {
   "async": true,
-  "crossDomain": true,
   "url": "http://rest-sample-nc.herokuapp.com/api/contacts",
   "method": "GET",
-  "headers": {
-    "authorization": "Basic c3lzYWRtOm5ldGNyYWNrZXI=",
-    "content-type": "application/json",
-    "cache-control": "no-cache",
-    "postman-token": "43ef890b-526e-7de0-0f5d-b0e797376606"
-  },
-  "processData": false,
-  "data": "{\n    \"id\": \"123321\",\n    \"name\":\"\",\n    \"description\":\"\"\n}"
+  "processData": false
 }
 
 $.ajax(settings).done(function (response) {
