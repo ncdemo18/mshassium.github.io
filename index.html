@@ -1123,14 +1123,24 @@
 
 <script>
     jQuery(document).ready(function () {
-        setInterval(function () {
-            jQuery.ajax({
-                url: "https://rest-sample-nc.herokuapp.com/api/contacts",
-                success: function (result) {
-                    console.log(result);
-                }
-            });
-        }, 1000)
+        var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://rest-sample-nc.herokuapp.com/api/contacts",
+  "method": "GET",
+  "headers": {
+    "authorization": "Basic c3lzYWRtOm5ldGNyYWNrZXI=",
+    "content-type": "application/json",
+    "cache-control": "no-cache",
+    "postman-token": "43ef890b-526e-7de0-0f5d-b0e797376606"
+  },
+  "processData": false,
+  "data": "{\n    \"id\": \"123321\",\n    \"name\":\"\",\n    \"description\":\"\"\n}"
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
     });
 </script>
 </html>
