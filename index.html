@@ -1124,15 +1124,22 @@
 <script>
     jQuery(document).ready(function () {
         var settings = {
-              "async": true,
-              "url": "https://rest-sample-nc.herokuapp.com/api/contacts",
-              "method": "GET",
-              "processData": false
-            }
-
-        $.ajax(settings).done(function (response) {
-          console.log(response);
-        });
+            "async": true,
+            "url": "https://rest-sample-nc.herokuapp.com/api/contacts",
+            "method": "GET",
+            "procesData": false
+        };
+        setInterval(function () {
+            jQuery.ajax(settings).done(function (response) {
+                var testname = "";
+                if(response.length>0){
+                    testName = response[0].name;
+                }
+                var newDivBlock = '<tr> <td> <div class="sentiment-bar-chart"> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar"style="background-color: rgb(104, 159, 56); height: 34.56px;"></a> </div> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar"style="background-color: rgb(255, 183, 77); height: 5.44px;"></a> </div> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar"style="background-color: rgb(255, 23, 68); height: 0px;"></a></div> </div> </td> <td> <div class="sentiment-bar-label">POS 0.9 </div> </td> <td>'+testname+'</td> </tr>'
+                jQuery("tbody").append(newDivBlock);
+                console.log();
+            });
+        }, 1000);
     });
 </script>
 </html>
