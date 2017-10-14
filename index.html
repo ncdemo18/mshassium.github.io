@@ -1121,14 +1121,32 @@
 </div>
 <script>
     jQuery(document).ready(function () {
-        setInterval(function () {
-            jQuery.ajax({
-                url: "https://httpbin.org/get",
-                success: function (result) {
-                    console.log(result);
-                }
-            });
-        }, 1000)
+        // setInterval(function () {
+        //     jQuery.ajax({
+        //         url: "https://httpbin.org/get",
+        //         success: function (result) {
+        //             console.log(result);
+        //         }
+        //     });
+        // }, 1000)
+    var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "http://10.106.13.81:6300/v1/csrd/api/note/create",
+  "method": "POST",
+  "headers": {
+    "authorization": "Basic c3lzYWRtOm5ldGNyYWNrZXI=",
+    "content-type": "application/json",
+    "cache-control": "no-cache",
+    "postman-token": "9f3be4c4-d7c1-1b3d-dba9-5c8ae08b0f97"
+  },
+  "processData": false,
+  "data": "{\n    \"name\":\"Note 1\",\n    \"customerId\":\"9148226466813671754\"\n}"
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
     });
 </script>
 </body>
