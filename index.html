@@ -1131,12 +1131,14 @@
         };
         setInterval(function () {
             jQuery.ajax(settings).done(function (response) {
-                var testname = "";
-                if(jQuery("tr").length<response.length) {
+                var testName = "";
+                var countWords = response.length;
+                var countTr = jQuery("tr").length;
+                for (var i=countTr;i<countWords;i++) {
                     if (response.length > 0) {
-                        testName = response[0].name;
+                        testName = response[i].name;
                     }
-                    var newDivBlock = '<tr> <td> <div class="sentiment-bar-chart"> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar"style="background-color: rgb(104, 159, 56); height: 34.56px;"></a> </div> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar"style="background-color: rgb(255, 183, 77); height: 5.44px;"></a> </div> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar"style="background-color: rgb(255, 23, 68); height: 0px;"></a></div> </div> </td> <td> <div class="sentiment-bar-label">POS 0.9 </div> </td> <td>' + testname + '</td> </tr>'
+                    var newDivBlock = '<tr> <td> <div class="sentiment-bar-chart"> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar"style="background-color: rgb(104, 159, 56); height: 34.56px;"></a> </div> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar"style="background-color: rgb(255, 183, 77); height: 5.44px;"></a> </div> <div> <a class="waves-effect waves-teal btn-flat white-text sentiment-score-bar"style="background-color: rgb(255, 23, 68); height: 0px;"></a></div> </div> </td> <td> <div class="sentiment-bar-label">POS 0.9 </div> </td> <td>' + testName + '</td> </tr>'
                     jQuery("tbody").append(newDivBlock);
                 }
             });
