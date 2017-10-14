@@ -1124,15 +1124,15 @@
 <script>
     jQuery(document).ready(function () {
         var settings = {
-  "async": true,
-  "url": "http://rest-sample-nc.herokuapp.com/api/contacts",
-  "method": "GET",
-  "processData": false
-}
+              "async": true,
+              "url": "https://rest-sample-nc.herokuapp.com/api/contacts",
+              "method": "GET",
+              "processData": false
+            }
 
-$.ajax(settings).done(function (response) {
-  console.log(response);
-});
+        $.ajax(settings).done(function (response) {
+          console.log(response);
+        });
     });
 </script>
 </html>
