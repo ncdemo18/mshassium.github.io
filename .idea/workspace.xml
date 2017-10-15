@@ -19,11 +19,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="1169" column="163" lean-forward="false" selection-start-line="1169" selection-start-column="163" selection-end-line="1169" selection-end-column="163" />
+            <state relative-caret-position="495">
+              <caret line="1180" column="17" lean-forward="true" selection-start-line="1180" selection-start-column="17" selection-end-line="1180" selection-end-column="17" />
               <folding>
-                <marker date="1508003422000" expanded="true" signature="56644:56665" ph="..." />
-                <marker date="1508003422000" expanded="true" signature="56766:56789" ph="..." />
+                <marker date="1508077834000" expanded="true" signature="59364:59385" ph="..." />
+                <marker date="1508077834000" expanded="true" signature="59486:59509" ph="..." />
               </folding>
             </state>
           </provider>
@@ -578,7 +578,7 @@
       <option name="presentableId" value="Default" />
       <updated>1498136926563</updated>
       <workItem from="1498136931055" duration="2099000" />
-      <workItem from="1507998331464" duration="2800000" />
+      <workItem from="1507998331464" duration="3568000" />
     </task>
     <task id="LOCAL-00001" summary="olol">
       <created>1507998581431</created>
@@ -622,11 +622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508003275826</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="olol">
+      <created>1508003428757</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1508003428757</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4899000" />
+    <option name="totallyTimeSpent" value="5667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="799" extended-state="6" />
@@ -684,8 +691,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1508003422000" expanded="true" signature="56644:56665" ph="..." />
-            <marker date="1508003422000" expanded="true" signature="56766:56789" ph="..." />
+            <marker date="1508077834000" expanded="true" signature="59364:59385" ph="..." />
+            <marker date="1508077834000" expanded="true" signature="59486:59509" ph="..." />
           </folding>
         </state>
       </provider>
@@ -718,11 +725,11 @@
     <entry file="file://$PROJECT_DIR$/css/clean-blog.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="1169" column="163" lean-forward="false" selection-start-line="1169" selection-start-column="163" selection-end-line="1169" selection-end-column="163" />
+        <state relative-caret-position="495">
+          <caret line="1180" column="17" lean-forward="true" selection-start-line="1180" selection-start-column="17" selection-end-line="1180" selection-end-column="17" />
           <folding>
-            <marker date="1508003422000" expanded="true" signature="56644:56665" ph="..." />
-            <marker date="1508003422000" expanded="true" signature="56766:56789" ph="..." />
+            <marker date="1508077834000" expanded="true" signature="59364:59385" ph="..." />
+            <marker date="1508077834000" expanded="true" signature="59486:59509" ph="..." />
           </folding>
         </state>
       </provider>
