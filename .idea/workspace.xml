@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54d531a5-8b80-4a10-a0d2-f60e04744545" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dashboard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/one.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transition.html" afterPath="$PROJECT_DIR$/transition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transition/js/pagetransitions.js" afterPath="$PROJECT_DIR$/transition/js/pagetransitions.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +19,18 @@
       <file leaf-file-name="transition.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/transition.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="177" column="7" lean-forward="true" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
+            <state relative-caret-position="99">
+              <caret line="162" column="67" lean-forward="false" selection-start-line="162" selection-start-column="67" selection-end-line="162" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagetransitions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transition/js/pagetransitions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2352">
+              <caret line="85" column="28" lean-forward="false" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -43,6 +52,7 @@
       <find>bs-example-navbar-collapse-1</find>
       <find>Start Boot</find>
       <find>url</find>
+      <find>iterateEffects</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Modules\UserModule\mshassium.github.io\css</dir>
@@ -64,6 +74,7 @@
         <option value="$PROJECT_DIR$/css/clean-blog.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/dashboard.html" />
+        <option value="$PROJECT_DIR$/transition/js/pagetransitions.js" />
         <option value="$PROJECT_DIR$/transition.html" />
       </list>
     </option>
@@ -555,7 +566,7 @@
       <updated>1498136926563</updated>
       <workItem from="1498136931055" duration="2099000" />
       <workItem from="1507998331464" duration="5022000" />
-      <workItem from="1509007037235" duration="1058000" />
+      <workItem from="1509007037235" duration="1724000" />
     </task>
     <task id="LOCAL-00001" summary="olol">
       <created>1507998581431</created>
@@ -631,7 +642,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8179000" />
+    <option name="totallyTimeSpent" value="8845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="799" extended-state="6" />
@@ -751,10 +762,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/transition/js/pagetransitions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2352">
+          <caret line="85" column="28" lean-forward="false" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/transition.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="177" column="7" lean-forward="true" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
+        <state relative-caret-position="99">
+          <caret line="162" column="67" lean-forward="false" selection-start-line="162" selection-start-column="67" selection-end-line="162" selection-end-column="67" />
           <folding />
         </state>
       </provider>

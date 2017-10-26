@@ -55,7 +55,8 @@ var PageTransitions = (function() {
                 return false;
             }
             if( animcursor > animations.max ) {
-                animcursor = 1;
+                // animcursor = 1;
+                animcursor = 5;
             }
             else if (animcursor < 1) {
                 animcursor = animations.max
@@ -69,17 +70,21 @@ var PageTransitions = (function() {
 
             if ( key == keys.RIGHT || key == keys.SPACE || key == keys.ENTER || key == keys.DOWN || key == keys.PAGE_DOWN ) {
                 nextPage( animcursorCheck() );
-                ++animcursor;
+                // ++animcursor;
+                animcursor = 5;
             }
             if ( key == keys.LEFT || key == keys.BACKSPACE || key == keys.PAGE_UP ) {
-                --animcursor;
+                // --animcursor;
+                animcursor = 5;
+
                 nextPage( animcursorCheck() );
             }
         });
 
         $iterate.on( 'click', function() {
             nextPage( animcursorCheck() );
-            ++animcursor;
+            // ++animcursor;
+            animcursor = 5;
         } );
 
 	}
