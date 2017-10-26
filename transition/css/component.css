@@ -103,9 +103,8 @@ html, body { height: 100%; }
 	position: absolute;
 	width: 300px;
 	z-index: 999999;
-	top: 12%;
-	left: 50%;
-	margin-top: 130px;
+	top: 5%;
+	left: 89%;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%); 
