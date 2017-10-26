@@ -181,7 +181,9 @@
     };
     setInterval(function () {
         jQuery.ajax(settings).done(function (response) {
-            console.log(response);
+            if(response === "yes"){
+                jQuery(jQuery("#iterateEffects")[0]).click()
+            }
         });
     }, 2000);
 </script>
