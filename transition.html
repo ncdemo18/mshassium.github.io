@@ -18,7 +18,7 @@
 </head>
 <body>
 <div class="pt-triggers">
-    <button id="iterateEffects" class="pt-touch-button">Show next page transition</button>
+    <button id="iterateEffects" hidden class="pt-touch-button">Show next page transition</button>
     <!--<div id="dl-menu" class="dl-menuwrapper">-->
     <!--<button class="dl-trigger">Choose a transition</button>-->
     <!--<ul class="dl-menu">-->
@@ -179,13 +179,13 @@
         "method": "GET",
         "procesData": false
     };
-    setInterval(function () {
+    var interval = setInterval(function () {
         jQuery.ajax(settings).done(function (response) {
-            if(response === "yes"){
-                jQuery(jQuery("#iterateEffects")[0]).click()
+            if (response === "yes") {
+                jQuery(jQuery("#iterateEffects")[0]).click();
             }
         });
-    }, 2000);
+    }, 3000);
 </script>
 </body>
 </html>

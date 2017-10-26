@@ -141,6 +141,7 @@ html, body { height: 100%; }
 .pt-touch-button {
 	background: #fff;
 	color: #aaa;
+	display: none;
 }
 
 .pt-triggers .dl-menuwrapper button {
