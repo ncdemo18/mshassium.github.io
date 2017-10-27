@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="54d531a5-8b80-4a10-a0d2-f60e04744545" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vebcam.html" afterPath="$PROJECT_DIR$/vebcam.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,17 +75,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="1000" column="37" lean-forward="false" selection-start-line="1000" selection-start-column="37" selection-end-line="1000" selection-end-column="37" />
+            <state relative-caret-position="220">
+              <caret line="992" column="16" lean-forward="true" selection-start-line="992" selection-start-column="16" selection-end-line="992" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vebcam.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vebcam.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vebcam.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -166,8 +165,8 @@
         <option value="$PROJECT_DIR$/dashboard.html" />
         <option value="$PROJECT_DIR$/transition/css/component.css" />
         <option value="$PROJECT_DIR$/transition.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/vebcam.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -658,7 +657,7 @@
       <updated>1498136926563</updated>
       <workItem from="1498136931055" duration="2099000" />
       <workItem from="1507998331464" duration="5022000" />
-      <workItem from="1509007037235" duration="9874000" />
+      <workItem from="1509007037235" duration="11080000" />
     </task>
     <task id="LOCAL-00001" summary="olol">
       <created>1507998581431</created>
@@ -734,10 +733,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16995000" />
+    <option name="totallyTimeSpent" value="18201000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="799" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="799" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -902,18 +901,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="1000" column="37" lean-forward="false" selection-start-line="1000" selection-start-column="37" selection-end-line="1000" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vebcam.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="992" column="16" lean-forward="true" selection-start-line="992" selection-start-column="16" selection-end-line="992" selection-end-column="16" />
           <folding />
         </state>
       </provider>
