@@ -81,8 +81,8 @@ var PageTransitions = (function() {
             }
         });
 
-        $iterate.on( 'click', function() {
-            nextPage( animcursorCheck() );
+        $iterate.on( 'click', function(step) {
+            nextPage( animcursorCheck(options.showPage = step) );
             // ++animcursor;
             animcursor = 5;
         } );
