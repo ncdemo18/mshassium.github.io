@@ -87,7 +87,7 @@ var PageTransitions = (function() {
         	if(page!==null){
 	        	options.showPage = page
 	        }
-            nextPage( animcursorCheck(options));
+            nextPage(options);
             // ++animcursor;
             animcursor = 5;
         } );
