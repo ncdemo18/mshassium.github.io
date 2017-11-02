@@ -182,8 +182,23 @@
     };
     var interval = setInterval(function () {
         jQuery.ajax(settings).done(function (response) {
-            if(response.changed === "yes") {
+            if (response.changed === "yes") {
                 page = response.value;
+                jQuery(jQuery("#iterateEffects")[0]).click();
+            }
+        });
+    }, 3000);
+
+    var settings1 = {
+        "async": false,
+        "url": "https://rest-sample-nc.herokuapp.com/api/dashboard/next",
+        "method": "GET",
+        "procesData": false
+    };
+    var interval1 = setInterval(function () {
+        jQuery.ajax(settings).done(function (response) {
+            if (response.key === "yes") {
+                page = null;
                 jQuery(jQuery("#iterateEffects")[0]).click();
             }
         });

@@ -83,7 +83,9 @@ var PageTransitions = (function() {
 
         $iterate.on( 'click', function() {
         	var options = animcursorCheck()
-        	options.showPage = page
+        	if(page!==null){
+	        	options.showPage = page
+	        }
             nextPage( animcursorCheck(options));
             // ++animcursor;
             animcursor = 5;
