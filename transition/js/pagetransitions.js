@@ -86,6 +86,7 @@ var PageTransitions = (function() {
         	options.animation = animcursorCheck();
         	if(page!==null){
 	        	options.showPage = page
+	        	page = null;
 	        }
             nextPage(options);
             // ++animcursor;
