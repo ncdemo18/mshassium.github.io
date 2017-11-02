@@ -182,7 +182,7 @@
     var interval = setInterval(function () {
         jQuery.ajax(settings).done(function (response) {
             if(response.changed === "yes") {
-                jQuery(jQuery("#iterateEffects")[0]).click(response.step);
+                jQuery(jQuery("#iterateEffects")[0]).click(response.value);
             }
         });
     }, 3000);
