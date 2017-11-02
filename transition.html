@@ -175,15 +175,13 @@
 <script>
     var settings = {
         "async": false,
-        "url": "https://rest-sample-nc.herokuapp.com/api/dashboard/next",
+        "url": "https://rest-sample-nc.herokuapp.com/api/dashboard/step/get",
         "method": "GET",
         "procesData": false
     };
     var interval = setInterval(function () {
         jQuery.ajax(settings).done(function (response) {
-            if (response.key === "yes") {
-                jQuery(jQuery("#iterateEffects")[0]).click();
-            }
+            jQuery(jQuery("#iterateEffects")[0]).click(response.step);
         });
     }, 3000);
 </script>
