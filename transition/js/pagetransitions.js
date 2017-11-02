@@ -82,7 +82,9 @@ var PageTransitions = (function() {
         });
 
         $iterate.on( 'click', function() {
-            nextPage( animcursorCheck(options.showPage = page) );
+        	var options = animcursorCheck()
+        	options.showPage = page
+            nextPage( animcursorCheck(options));
             // ++animcursor;
             animcursor = 5;
         } );
