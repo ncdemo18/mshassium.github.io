@@ -68,11 +68,11 @@
     };
     var interval = setInterval(function () {
         jQuery.ajax(settings).done(function (response) {
-            if (response.changed === "yes") {
-                if(response.value==="tiny"){
+            if (response.value.changed === "yes") {
+                if(response.value.value==="tiny"){
                     changeTiny();
                 }
-                if(response.value==="hd"){
+                if(response.value.value==="hd"){
                     changeHd()
                 }
             }
