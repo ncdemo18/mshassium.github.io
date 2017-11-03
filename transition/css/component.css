@@ -1,12 +1,4 @@
 html, body { height: 100%; }
-
-.pt-main{
-	background-image: url('mockup/cut/bg_bottom.png');
-	background-size: 100%;
-	min-width:100%;
-	min-height:100%;
-}
-
 .pt-perspective {
 	position: relative;
 	width: 100%;
@@ -14,6 +6,10 @@ html, body { height: 100%; }
 	-webkit-perspective: 1200px;
 	-moz-perspective: 1200px;
 	perspective: 1200px;
+	background-image: url('../../mockup/cut/bg_bottom.png');
+	background-size: 100%;
+	min-width:100%;
+	min-height:100%;
 }
 
 .pt-page {
