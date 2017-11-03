@@ -18,8 +18,8 @@
 }
 
 .pt-page-moveFromRight {
-	-webkit-animation: moveFromRight .12s ease both;
-	animation: moveFromRight .12s ease both;
+	-webkit-animation: moveFromRight 1.2s ease both;
+	animation: moveFromRight 1.2s ease both;
 }
 
 .pt-page-moveToTop {
