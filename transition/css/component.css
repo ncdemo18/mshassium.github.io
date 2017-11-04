@@ -6,14 +6,16 @@ html, body { height: 100%; }
 	-webkit-perspective: 1200px;
 	-moz-perspective: 1200px;
 	perspective: 1200px;
-	background-image: url('../../mockup/cut/bg_bottom.png');
+	background-image: url('../../mockup/cut/bg_top_ricky.png');
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .pt-page {
 	width: 100%;
 	height: 100%;
 	position: absolute;
+	overflow: auto;
 	top: 0;
 	left: 0;
 	visibility: hidden;
@@ -73,7 +75,7 @@ html, body { height: 100%; }
 	color: rgba(0,0,0,0.1);
 }
 
-.pt-page-1 {
+/*.pt-page-1 {
 	background-image: url('../../mockup/cut/bg_bottom.png');
 }
 
@@ -95,7 +97,7 @@ html, body { height: 100%; }
 
 .pt-page-6 {
 	background-image: url('../../mockup/cut/bg_bottom.png');
-}
+}*/
 
 /* Triggers (menu and button) */
 

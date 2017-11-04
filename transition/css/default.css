@@ -53,8 +53,56 @@ button:hover, .dl-trigger:hover{
 	left: 0;
 }
 
+.hack_time_block{
+	min-width: 310px;
+	max-width: 310px;
+	min-height: 80px;
+	background-color: #1b2a36;
+	position: absolute;
+	left: 400px;
+	top: 180px;
+	z-index: 10;
+}
+
+.six_ticket_count_div{
+	position: fixed;
+    overflow: hidden;
+    left: 85%;
+    bottom: 0;
+    padding: 10px;
+    width: 250px;
+    z-index: 10;
+}
+
+.panel_img_rick{
+	position: absolute;
+    left: 89%;
+    max-height: 100vh;
+    overflow-y: scroll;
+    z-index: 2;
+
+    /*position: absolute;
+    left: calc(100% - 390px);
+    max-height: 1665px;*/
+}
+.wrap_panel_ricky{
+	overflow: hidden;
+	opacity: 0;
+}
+.wrap_panel_sam{
+	overflow: hidden;
+}
+.scroll-image{
+	overflow: auto;
+}
+
+.time_current_value{
+	font-size: 55px;
+}
+
 .bcg_img_one{
         width: 100%;
+        z-index: 1;
     }
     
 .codrops-top a {

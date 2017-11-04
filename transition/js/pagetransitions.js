@@ -40,7 +40,7 @@ var PageTransitions = (function() {
 			$page.data( 'originalClassList', $page.attr( 'class' ) );
 		} );
 
-		$pages.eq( current ).addClass( 'pt-page-current' );
+		$pages.eq( current ).addClass( 'pt-page-current' ).css("display","");
 
 		$( '#dl-menu' ).dlmenu( {
 			animationClasses : { in : 'dl-animate-in-2', out : 'dl-animate-out-2' },
@@ -123,7 +123,7 @@ var PageTransitions = (function() {
 			}
 		}
 
-		var $nextPage = $pages.eq( current ).addClass( 'pt-page-current' ),
+		var $nextPage = $pages.eq( current ).addClass( 'pt-page-current' ).css("display",""),
 			outClass = '', inClass = '';
 
 		switch( animation ) {
