@@ -6,7 +6,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
-<body><div id="ytplayer"></div>
+<body><div style="position: relative; align:centre" id="ytplayer"></div>
 
 <script>
     // Load the IFrame Player API code asynchronously.
@@ -20,10 +20,10 @@
     var player;
     function onYouTubeIframeAPIReady() {
         player = new YT.Player('ytplayer', {
-            width: '500',
-            height: '500',
-            videoId: 'M7lc1UVf-VE',
-            playerVars: {'autoplay': 1, 'controls': 0},
+            width: '1336',
+            height: '600',
+            videoId: '3-v585syFjM',
+            playerVars: {'autoplay': 1, 'controls': 1},
             events: {
                 'onReady': onPlayerReady,
                 'onPlaybackQualityChange': onPlayerPlaybackQualityChange,

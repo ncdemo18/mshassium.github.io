@@ -1,5 +1,4 @@
 html, body { height: 100%; }
-
 .pt-perspective {
 	position: relative;
 	width: 100%;
@@ -7,6 +6,8 @@ html, body { height: 100%; }
 	-webkit-perspective: 1200px;
 	-moz-perspective: 1200px;
 	perspective: 1200px;
+	background-image: url('../../mockup/cut/bg_bottom.png');
+	background-size: 100%;
 }
 
 .pt-page {
@@ -73,27 +74,27 @@ html, body { height: 100%; }
 }
 
 .pt-page-1 {
-	background: #0ac2d2;
+	background-image: url('../../mockup/cut/bg_bottom.png');
 }
 
 .pt-page-2 {
-	background: #7bb7fa;
+	background-image: url('../../mockup/cut/bg_bottom.png');
 }
 
 .pt-page-3 {
-	background: #60d7a9;
+	background-image: url('../../mockup/cut/bg_bottom.png');
 }
 
 .pt-page-4 {
-	background: #fdc162;
+	background-image: url('../../mockup/cut/bg_bottom.png');
 }
 
 .pt-page-5 {
-	background: #fd6a62;
+	background-image: url('../../mockup/cut/bg_bottom.png');
 }
 
 .pt-page-6 {
-	background: #f68dbb;
+	background-image: url('../../mockup/cut/bg_bottom.png');
 }
 
 /* Triggers (menu and button) */
