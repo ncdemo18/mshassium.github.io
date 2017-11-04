@@ -256,12 +256,10 @@
             "method": "GET",
             "procesData": false
         };
-        if(crossuserFunction) {
-            var interval = setInterval(function () {
-                jQuery.ajax(nextSamStepSettings).done(function (response) {
-                    crossuserFunction=false;
-                });
-            }, 3000);
+        if (crossuserFunction) {
+            jQuery.ajax(nextSamStepSettings).done(function (response) {
+                crossuserFunction = false;
+            });
         }
 
     }
