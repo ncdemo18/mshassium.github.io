@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54d531a5-8b80-4a10-a0d2-f60e04744545" name="Default" comment="" />
+    <list default="true" id="54d531a5-8b80-4a10-a0d2-f60e04744545" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ricky.html" afterPath="$PROJECT_DIR$/ricky.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +18,7 @@
       <file leaf-file-name="sam.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sam.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="-345">
               <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -28,8 +30,8 @@
       <file leaf-file-name="ricky.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ricky.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="254" column="48" lean-forward="false" selection-start-line="254" selection-start-column="48" selection-end-line="254" selection-end-column="48" />
+            <state relative-caret-position="297">
+              <caret line="244" column="24" lean-forward="true" selection-start-line="244" selection-start-column="24" selection-end-line="244" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -663,7 +665,7 @@
       <workItem from="1498136931055" duration="2099000" />
       <workItem from="1507998331464" duration="5022000" />
       <workItem from="1509007037235" duration="12542000" />
-      <workItem from="1509384763079" duration="22134000" />
+      <workItem from="1509384763079" duration="22694000" />
     </task>
     <task id="LOCAL-00001" summary="olol">
       <created>1507998581431</created>
@@ -802,7 +804,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41797000" />
+    <option name="totallyTimeSpent" value="42357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="799" extended-state="6" />
@@ -1056,16 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sam.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1077,10 +1069,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ricky.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="254" column="48" lean-forward="false" selection-start-line="254" selection-start-column="48" selection-end-line="254" selection-end-column="48" />
+        <state relative-caret-position="297">
+          <caret line="244" column="24" lean-forward="true" selection-start-line="244" selection-start-column="24" selection-end-line="244" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
