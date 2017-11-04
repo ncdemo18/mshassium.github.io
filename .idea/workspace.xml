@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54d531a5-8b80-4a10-a0d2-f60e04744545" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sam.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/transition.html" afterPath="$PROJECT_DIR$/ricky.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ricky.html" afterPath="$PROJECT_DIR$/ricky.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="sam.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sam.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="200" column="75" lean-forward="false" selection-start-line="200" selection-start-column="75" selection-end-line="200" selection-end-column="75" />
+            <state relative-caret-position="32">
+              <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="174" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -30,8 +29,8 @@
       <file leaf-file-name="ricky.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ricky.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="200" column="77" lean-forward="false" selection-start-line="200" selection-start-column="77" selection-end-line="200" selection-end-column="77" />
+            <state relative-caret-position="-59">
+              <caret line="174" column="6" lean-forward="false" selection-start-line="174" selection-start-column="6" selection-end-line="174" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -72,16 +71,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2145">
               <caret line="143" column="12" lean-forward="false" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -663,7 +652,7 @@
       <workItem from="1498136931055" duration="2099000" />
       <workItem from="1507998331464" duration="5022000" />
       <workItem from="1509007037235" duration="12542000" />
-      <workItem from="1509384763079" duration="9942000" />
+      <workItem from="1509384763079" duration="10236000" />
     </task>
     <task id="LOCAL-00001" summary="olol">
       <created>1507998581431</created>
@@ -795,7 +784,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29605000" />
+    <option name="totallyTimeSpent" value="29899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="799" extended-state="6" />
@@ -1057,16 +1046,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sam.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="200" column="75" lean-forward="false" selection-start-line="200" selection-start-column="75" selection-end-line="200" selection-end-column="75" />
+        <state relative-caret-position="32">
+          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="174" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ricky.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="200" column="77" lean-forward="false" selection-start-line="200" selection-start-column="77" selection-end-line="200" selection-end-column="77" />
+        <state relative-caret-position="-59">
+          <caret line="174" column="6" lean-forward="false" selection-start-line="174" selection-start-column="6" selection-end-line="174" selection-end-column="6" />
           <folding />
         </state>
       </provider>
