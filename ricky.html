@@ -250,7 +250,7 @@
     }, 3000);
 
     function nextSamStep() {
-        var settings = {
+        var nextSamStepSettings = {
             "async": false,
             "url": "https://rest-sample-nc.herokuapp.com/api/dashboard/next/push/Sam",
             "method": "GET",
@@ -258,7 +258,7 @@
         };
         if(crossuserFunction) {
             var interval = setInterval(function () {
-                jQuery.ajax(settings).done(function (response) {
+                jQuery.ajax(nextSamStepSettings).done(function (response) {
                     crossuserFunction=false;
                 });
             }, 3000);
