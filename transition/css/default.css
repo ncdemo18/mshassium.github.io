@@ -57,7 +57,7 @@ button:hover, .dl-trigger:hover{
 	min-width: 310px;
 	max-width: 310px;
 	min-height: 80px;
-	background-color: #1b2a36;
+	/*background-color: #1b2a36;*/
 	position: absolute;
 	left: 400px;
 	top: 170px;
@@ -68,7 +68,7 @@ button:hover, .dl-trigger:hover{
 	min-width: 62px;
     max-width: 142px;
     min-height: 42px;
-    background-color: #1b2a36;
+    /*background-color: #1b2a36;*/
     position: absolute;
     left: calc(100% - 288px);
     top: 42px;
