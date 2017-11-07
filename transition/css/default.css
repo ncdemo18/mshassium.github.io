@@ -60,19 +60,19 @@ button:hover, .dl-trigger:hover{
 	background-color: #1b2a36;
 	position: absolute;
 	left: 400px;
-	top: 180px;
+	top: 170px;
 	z-index: 10;
 }
 
 .hack_loyalty_block{
 	min-width: 62px;
-	max-width: 142px;
-	min-height: 42px;
-	background-color: #1b2a36;
-	position: absolute;
-	left: calc(100% - 304px);
-	top: 49px;
-	z-index: 10;
+    max-width: 142px;
+    min-height: 42px;
+    background-color: #1b2a36;
+    position: absolute;
+    left: calc(100% - 288px);
+    top: 42px;
+    z-index: 10;
 }
 
 .loyalty_current_value{
