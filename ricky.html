@@ -204,7 +204,7 @@
         if (hour > 12) {
             timeDop = "pm"
         }
-        if(hour){
+        if(hour<10){
             hour="0"+hour;
         }
         var minutes = d.getMinutes();
