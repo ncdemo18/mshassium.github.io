@@ -64,6 +64,22 @@ button:hover, .dl-trigger:hover{
 	z-index: 10;
 }
 
+.hack_loyalty_block{
+	min-width: 62px;
+	max-width: 142px;
+	min-height: 42px;
+	background-color: #1b2a36;
+	position: absolute;
+	left: calc(100% - 304px);
+	top: 49px;
+	z-index: 10;
+}
+
+.loyalty_current_value{
+	font-size: 23px;
+	transition:all 1s ease;
+}
+
 .six_ticket_count_div{
 	position: fixed;
     overflow: hidden;
