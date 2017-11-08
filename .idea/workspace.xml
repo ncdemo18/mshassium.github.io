@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0acfeba2-ece5-4c9f-9e8d-ab57b6f9f378" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loyalty_near_me.html" afterPath="$PROJECT_DIR$/loyalty_near_me.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loyalty_points.html" afterPath="$PROJECT_DIR$/loyalty_points.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sam.html" afterPath="$PROJECT_DIR$/sam.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transition/css/component.css" afterPath="$PROJECT_DIR$/transition/css/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/1.html" afterPath="$PROJECT_DIR$/view/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/2.html" afterPath="$PROJECT_DIR$/view/2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/3.html" afterPath="$PROJECT_DIR$/view/3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/4.html" afterPath="$PROJECT_DIR$/view/4.html" />
-    </list>
+    <list default="true" id="0acfeba2-ece5-4c9f-9e8d-ab57b6f9f378" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loyalty_points.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="loyalty_points.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loyalty_points.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="119">
+              <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="11" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -101,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="119">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -317,12 +305,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510056655314</updated>
-      <workItem from="1510056658189" duration="57000" />
+      <workItem from="1510056658189" duration="2361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57000" />
+    <option name="totallyTimeSpent" value="2361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -387,22 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loyalty_points.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transition/css/component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="104" column="40" lean-forward="false" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -429,8 +401,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="119">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transition/css/component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="104" column="40" lean-forward="false" selection-start-line="104" selection-start-column="40" selection-end-line="104" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loyalty_points.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="11" selection-end-column="78" />
           <folding />
         </state>
       </provider>
