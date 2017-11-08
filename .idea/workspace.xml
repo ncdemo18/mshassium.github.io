@@ -45,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/footbal.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="271" column="78" lean-forward="false" selection-start-line="271" selection-start-column="78" selection-end-line="271" selection-end-column="78" />
+              <caret line="271" column="110" lean-forward="false" selection-start-line="271" selection-start-column="110" selection-end-line="271" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -54,7 +54,7 @@
       <file leaf-file-name="sam.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sam.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
+            <state relative-caret-position="414">
               <caret line="203" column="59" lean-forward="true" selection-start-line="203" selection-start-column="16" selection-end-line="203" selection-end-column="59" />
               <folding />
             </state>
@@ -331,12 +331,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510056655314</updated>
-      <workItem from="1510056658189" duration="6399000" />
+      <workItem from="1510056658189" duration="7063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6399000" />
+    <option name="totallyTimeSpent" value="7063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -459,7 +459,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sam.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="414">
           <caret line="203" column="59" lean-forward="true" selection-start-line="203" selection-start-column="16" selection-end-line="203" selection-end-column="59" />
           <folding />
         </state>
@@ -468,7 +468,7 @@
     <entry file="file://$PROJECT_DIR$/footbal.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="271" column="78" lean-forward="false" selection-start-line="271" selection-start-column="78" selection-end-line="271" selection-end-column="78" />
+          <caret line="271" column="110" lean-forward="false" selection-start-line="271" selection-start-column="110" selection-end-line="271" selection-end-column="110" />
           <folding />
         </state>
       </provider>

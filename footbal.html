@@ -264,12 +264,12 @@
         var accountDeleteDialog = jQuery('#confirm-delete'), transition;
         setInterval(function () {
             jQuery.ajax(settings1).done(function (response) {
-                if(response !== null && response.value === "arsenal") {
+                if(response !== null && response.value === "arsenal" && response.changed === "yes"){
                     accountDeleteDialog[0].showModal();
                     transition = window.setTimeout(function () {
                         accountDeleteDialog.addClass('dialog-scale');
                     }, 0.5);
-                } else if (response !== null && response.value === "manchester"){
+                } else if (response !== null && response.value === "manchester"  && response.changed === "yes"){
                     jQuery(".t-shirt").attr("src","http://image2.kbobject.com/mufc-221084.jpg?width=170&height=170&quality=95")
                     accountDeleteDialog[0].showModal();
                     transition = window.setTimeout(function () {
