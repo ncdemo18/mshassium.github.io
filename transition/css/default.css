@@ -63,6 +63,16 @@ button:hover, .dl-trigger:hover{
 	top: 170px;
 	z-index: 10;
 }
+.hack_date_block{
+	min-width: 310px;
+	max-width: 310px;
+	min-height: 80px;
+	/*background-color: #1b2a36;*/
+	position: absolute;
+	left: 750px;
+	top: 180px;
+	z-index: 10;
+}
 
 .hack_loyalty_block{
 	min-width: 62px;
@@ -115,7 +125,13 @@ button:hover, .dl-trigger:hover{
 .time_current_value{
 	font-size: 55px;
 }
-
+.date_current_value{
+	font-size: 30px;
+}
+.date_day_name{
+	color: #5a5a5a;
+	opacity: 0.9;
+}
 .bcg_img_one{
         width: 100%;
         z-index: 1;

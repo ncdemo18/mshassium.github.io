@@ -162,6 +162,10 @@
         <div class="scroll-image">
             <img class="bcg_img_one" src="mockup/bg/1 Lock Screen.png">
         </div>
+        <div class="hack_date_block">
+            <div class="date_current_value"></div>
+            <div class="date_day_name"></div>
+        </div>
     </div>
     <div class="pt-page pt-page-2" style="display: none">
         <div class="scroll-image">
@@ -196,11 +200,16 @@
 <script src="transition/js/jquery.dlmenu.js"></script>
 <script src="transition/js/pagetransitions.js"></script>
 <script>
-
+    var monthNames = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ];
+    var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     jQuery(document).ready(function () {
         var d = new Date();
         var hour = d.getHours();
-        var timeDop = "am"
+        var timeDop = "am";
+        var month = monthNames[d.getMonth()];
+        var dateDay = days[d.getDay()];
         if (hour > 12) {
             timeDop = "pm"
         }
@@ -212,6 +221,8 @@
             minutes="0"+minutes;
         }
         jQuery(".time_current_value").text(hour + ":" + minutes + "    " + timeDop)
+        jQuery(".date_current_value").text(month + " " + d.getDate()+"st, 2017")
+        jQuery(".date_day_name").text(dateDay)
     });
     var page = null;
     var settings = {
