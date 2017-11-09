@@ -265,6 +265,7 @@
         setInterval(function () {
             jQuery.ajax(settings1).done(function (response) {
                 if(response !== null && response.value === "arsenal" && response.changed === "yes"){
+                    jQuery(".t-shirt").attr("src","https://x1.adis.ws/v1/media/graphics/i/ArsenalDirect/M75150902_pl?patches=patches_M75150902-pl&name=LACAZETTE%20&numbers=pl-home__2017-18--9&h=814")
                     accountDeleteDialog[0].showModal();
                     transition = window.setTimeout(function () {
                         accountDeleteDialog.addClass('dialog-scale');
@@ -293,7 +294,7 @@
             <h1>Please Confirm</h1>
         </header>
         <div class="dialog-content">
-            <img class="t-shirt" src="https://x1.adis.ws/v1/media/graphics/i/ArsenalDirect/M75150902_pl?patches=patches_M75150902-pl&name=LACAZETTE%20&numbers=pl-home__2017-18--9&h=814"/>
+            <img class="t-shirt" style="width: 100%" src="https://x1.adis.ws/v1/media/graphics/i/ArsenalDirect/M75150902_pl?patches=patches_M75150902-pl&name=LACAZETTE%20&numbers=pl-home__2017-18--9&h=814"/>
             <p>Romelu Lukaku just scored a goal for Manchester United! Show your team spirit by purchasing a Lukaku t-shirt!</p>
         </div>
         <div class="btn-group cf">
