@@ -74,6 +74,20 @@ button:hover, .dl-trigger:hover{
 	left: 316px;
 }
 
+.hack_loyalty_block_2{
+	min-width: 62px;
+	max-width: 142px;
+	min-height: 42px;
+	position: absolute;
+	left: calc(100% - 116px);
+	top: 118px;
+	z-index: 10;
+}
+
+.loyalty_current_value_2 {
+	font-size: 38px;
+	transition: all 1s ease;
+}
 
 .hack_date_block{
 	min-width: 310px;
