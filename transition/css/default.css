@@ -63,6 +63,18 @@ button:hover, .dl-trigger:hover{
 	top: 170px;
 	z-index: 10;
 }
+.hack_time_block_2 {
+	position: absolute;
+	top: 106px;
+	left: 34px;
+}
+.hack_date_block_2 {
+	position: absolute;
+	top: 123px;
+	left: 316px;
+}
+
+
 .hack_date_block{
 	min-width: 310px;
 	max-width: 310px;
