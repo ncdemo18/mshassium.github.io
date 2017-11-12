@@ -84,6 +84,41 @@ button:hover, .dl-trigger:hover{
 	z-index: 10;
 }
 
+.hack_loyalty_block_page{
+	min-width: 62px;
+	max-width: 142px;
+	min-height: 42px;
+	position: absolute;
+	left: 140px;
+	top: 140px;
+	z-index: 10;
+}
+
+.block_offers_for_me{
+	position: absolute;
+	top: 352px;
+	left: 57px;
+	min-width: 297px;
+	min-height: 25px;
+	/*background-color: blue;*/
+	z-index: 10;
+}
+
+.block_loyalty_near_me{
+	position: absolute;
+	top: 776px;
+	left: 57px;
+	min-width: 397px;
+	min-height: 25px;
+	/*background-color: blue;*/
+	z-index: 10;
+}
+
+.loyalty_current_value_page{
+	font-size: 38px;
+	transition: all 1s ease;
+}
+
 .loyalty_current_value_2 {
 	font-size: 38px;
 	transition: all 1s ease;
