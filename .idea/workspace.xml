@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0acfeba2-ece5-4c9f-9e8d-ab57b6f9f378" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ricky.html" afterPath="$PROJECT_DIR$/ricky.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transition/css/default.css" afterPath="$PROJECT_DIR$/transition/css/default.css" />
-    </list>
+    <list default="true" id="0acfeba2-ece5-4c9f-9e8d-ab57b6f9f378" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,8 +55,8 @@
       <file leaf-file-name="ricky.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ricky.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="206" column="43" lean-forward="false" selection-start-line="206" selection-start-column="43" selection-end-line="206" selection-end-column="43" />
+            <state relative-caret-position="199">
+              <caret line="204" column="21" lean-forward="false" selection-start-line="204" selection-start-column="21" selection-end-line="207" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -862,7 +859,7 @@
       <option name="presentableId" value="Default" />
       <updated>1510056655314</updated>
       <workItem from="1510056658189" duration="15824000" />
-      <workItem from="1510662055859" duration="1706000" />
+      <workItem from="1510662055859" duration="2284000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1510219453313</created>
@@ -882,7 +879,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17530000" />
+    <option name="totallyTimeSpent" value="18108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -1134,8 +1131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ricky.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="206" column="43" lean-forward="false" selection-start-line="206" selection-start-column="43" selection-end-line="206" selection-end-column="43" />
+        <state relative-caret-position="199">
+          <caret line="204" column="21" lean-forward="false" selection-start-line="204" selection-start-column="21" selection-end-line="207" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
