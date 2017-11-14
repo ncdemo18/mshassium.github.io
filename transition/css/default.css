@@ -194,6 +194,14 @@ button:hover, .dl-trigger:hover{
     left: calc(100% - 390px);
     max-height: 1665px;*/
 }
+
+.panel_img_sam{
+	position: absolute;
+	left: 86%;
+	max-height: 100vh;
+	overflow-y: scroll;
+	z-index: 2;
+}
 .wrap_panel_ricky{
 	overflow: hidden;
 	opacity: 0;
