@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0acfeba2-ece5-4c9f-9e8d-ab57b6f9f378" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/t-shirt.jpg" />
+    <list default="true" id="0acfeba2-ece5-4c9f-9e8d-ab57b6f9f378" name="Default" comment="change t-shirt and text">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/bg/2 Lock Screen.png" afterPath="$PROJECT_DIR$/mockup/bg/2 Lock Screen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/bg/3 Media Center.png" afterPath="$PROJECT_DIR$/mockup/bg/3 Media Center.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/bg/5 Match page.png" afterPath="$PROJECT_DIR$/mockup/bg/5 Match page.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footbal.html" afterPath="$PROJECT_DIR$/footbal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ricky.html" afterPath="$PROJECT_DIR$/ricky.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transition/css/default.css" afterPath="$PROJECT_DIR$/transition/css/default.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ricky.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ricky.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ricky.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3553">
-              <caret line="209" column="6" lean-forward="false" selection-start-line="209" selection-start-column="6" selection-end-line="209" selection-end-column="6" />
+            <state relative-caret-position="116">
+              <caret line="216" column="42" lean-forward="false" selection-start-line="216" selection-start-column="42" selection-end-line="216" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,16 +80,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mshassium.github.io.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mshassium.github.io.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,7 +100,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footbal.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transition/css/component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="140" column="11" lean-forward="false" selection-start-line="140" selection-start-column="11" selection-end-line="140" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footbal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footbal.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -122,8 +125,8 @@
       <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/transition/css/default.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3383">
-              <caret line="199" column="12" lean-forward="false" selection-start-line="199" selection-start-column="12" selection-end-line="199" selection-end-column="12" />
+            <state relative-caret-position="369">
+              <caret line="146" column="16" lean-forward="false" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -148,10 +151,10 @@
       <find>dialog-s</find>
       <find>t-s</find>
       <find>t-sh</find>
-      <find>hack</find>
       <find>tim</find>
       <find>&lt;a href=&quot;loyalty_points.html&quot;&gt;</find>
       <find>panel</find>
+      <find>hack</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -181,12 +184,12 @@
         <option value="$PROJECT_DIR$/offers_for_me.html" />
         <option value="$PROJECT_DIR$/loyalty_near_me.html" />
         <option value="$PROJECT_DIR$/loyalty_points.html" />
-        <option value="$PROJECT_DIR$/ricky.html" />
         <option value="$PROJECT_DIR$/sam.html" />
-        <option value="$PROJECT_DIR$/transition/css/default.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/chat.html" />
         <option value="$PROJECT_DIR$/footbal.html" />
+        <option value="$PROJECT_DIR$/transition/css/default.css" />
+        <option value="$PROJECT_DIR$/ricky.html" />
       </list>
     </option>
   </component>
@@ -226,6 +229,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mshassium.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mshassium.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mshassium.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mshassium.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mshassium.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -871,7 +906,7 @@
       <workItem from="1510662055859" duration="2849000" />
       <workItem from="1510685917432" duration="1680000" />
       <workItem from="1510698900524" duration="2466000" />
-      <workItem from="1511163641788" duration="379000" />
+      <workItem from="1511163641788" duration="1357000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1510219453313</created>
@@ -887,11 +922,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510225251279</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change t-shirt and text">
+      <created>1511164038576</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511164038576</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23198000" />
+    <option name="totallyTimeSpent" value="24176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -937,7 +979,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
+    <MESSAGE value="change t-shirt and text" />
+    <option name="LAST_COMMIT_MESSAGE" value="change t-shirt and text" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1277,14 +1320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/transition/css/component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="140" column="11" lean-forward="false" selection-start-line="140" selection-start-column="11" selection-end-line="140" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mshassium.github.io.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1317,30 +1352,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ricky.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3553">
-          <caret line="209" column="6" lean-forward="false" selection-start-line="209" selection-start-column="6" selection-end-line="209" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sam.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2737">
           <caret line="161" column="33" lean-forward="false" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transition/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3383">
-          <caret line="199" column="12" lean-forward="false" selection-start-line="199" selection-start-column="12" selection-end-line="199" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1367,6 +1382,34 @@
           <caret line="297" column="106" lean-forward="false" selection-start-line="297" selection-start-column="106" selection-end-line="297" selection-end-column="106" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transition/css/component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="140" column="11" lean-forward="false" selection-start-line="140" selection-start-column="11" selection-end-line="140" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transition/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="146" column="16" lean-forward="false" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ricky.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="216" column="42" lean-forward="false" selection-start-line="216" selection-start-column="42" selection-end-line="216" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
