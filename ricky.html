@@ -348,7 +348,7 @@
         };
         jQuery.ajax(addScoreSettings).done(function (response) {
             console.log("Check Score");
-            var changed = response.changedPointers;
+            var changed = response.changed;
             if(changed==="yes"){
                 if(response.value==="evertone"){
                     var scoreEvertone = Int.parseInt(jQuery(".hack_score_right").text())+1;
