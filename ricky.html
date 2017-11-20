@@ -351,10 +351,10 @@
             var changed = response.changed;
             if(changed==="yes"){
                 if(response.value==="evertone"){
-                    var scoreEvertone = parseInt(jQuery((jQuery(".hack_score_right")[0]).text()))+1;
+                    var scoreEvertone = parseInt((jQuery(jQuery(".hack_score_right")[0]).text()))+1;
                     jQuery(".hack_score_right").text(scoreEvertone)
                 }else{
-                    var scoreArsenal = parseInt(jQuery((jQuery(".hack_score_left").text())))+1;
+                    var scoreArsenal = parseInt((jQuery(jQuery(".hack_score_left")[0].text())))+1;
                     jQuery(".hack_score_left").text(scoreArsenal)
                 }
             }
