@@ -186,7 +186,9 @@
             <div class="time_current_value"></div>
         </div>
         <div class="hack_loyalty_block_2">
-            <a href="loyalty_points.html" target="blank"><div class="loyalty_current_value_2">365</div></a>
+            <a href="loyalty_points.html" target="blank">
+                <div class="loyalty_current_value_2">365</div>
+            </a>
         </div>
     </div>
     <div class="six_ticket_count_div" style="visibility: hidden">
@@ -197,7 +199,9 @@
     </div>
     <div class="pt-page pt-page-3" style="display: none">
         <div class="hack_loyalty_block">
-            <a href="loyalty_points.html" target="blank"><div class="loyalty_current_value">365</div></a>
+            <a href="loyalty_points.html" target="blank">
+                <div class="loyalty_current_value">365</div>
+            </a>
         </div>
         <div class="scroll-image">
             <img class="bcg_img_one" src="mockup/bg/3 Media Center.png">
@@ -210,7 +214,9 @@
     </div>
     <div class="pt-page pt-page-4" style="display: none">
         <div class="hack_loyalty_block">
-            <a href="loyalty_points.html" target="blank"><div class="loyalty_current_value">365</div></a>
+            <a href="loyalty_points.html" target="blank">
+                <div class="loyalty_current_value">365</div>
+            </a>
         </div>
         <img class="bcg_img_one" src="mockup/bg/5 Match page.png">
         <div class="hack_score_block_3">
@@ -230,7 +236,7 @@
     var monthNames = ["January", "February", "March", "April", "May", "June",
         "July", "August", "September", "October", "November", "December"
     ];
-    var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     jQuery(document).ready(function () {
         var d = new Date();
         var hour = d.getHours();
@@ -240,15 +246,15 @@
         if (hour > 12) {
             timeDop = "pm"
         }
-        if(hour<10){
-            hour="0"+hour;
+        if (hour < 10) {
+            hour = "0" + hour;
         }
         var minutes = d.getMinutes();
-        if(minutes<10){
-            minutes="0"+minutes;
+        if (minutes < 10) {
+            minutes = "0" + minutes;
         }
         jQuery(".time_current_value").text(hour + ":" + minutes + "    " + timeDop)
-        jQuery(".date_current_value").text(month + " " + d.getDate()+"st, 2017")
+        jQuery(".date_current_value").text(month + " " + d.getDate() + "st, 2017")
         jQuery(".date_day_name").text(dateDay)
     });
     var page = null;
@@ -316,6 +322,7 @@
 
             }
         });
+        checkScoreAndChange();
     }, 3000);
 
     function nextSamStep() {
@@ -332,6 +339,27 @@
         }
 
     }
+    function checkScoreAndChange() {
+        var addScoreSettings = {
+            "async": false,
+            "url": "https://rest-sample-nc.herokuapp.com/api/dashboard/footbal/score",
+            "method": "GET",
+            "procesData": false
+        };
+        jQuery.ajax(addScoreSettings).done(function (response) {
+            console.log("Check Score");
+            var changed = response.changedPointers;
+            if(changed==="yes"){
+                if(response.value==="evertone"){
+                    var scoreEvertone = Int.parseInt(jQuery(".hack_score_right").text())+1;
+                    jQuery(".hack_score_right").text(scoreEvertone)
+                }else{
+                    var scoreArsenal = Int.parseInt(jQuery(".hack_score_left").text())+1;
+                    jQuery(".hack_score_left").text(scoreEvertone)
+                }
+            }
+        });
+    };
 </script>
 </body>
 </html>

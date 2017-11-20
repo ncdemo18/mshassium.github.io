@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0acfeba2-ece5-4c9f-9e8d-ab57b6f9f378" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ricky.html" afterPath="$PROJECT_DIR$/ricky.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ricky.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ricky.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ricky.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="216" column="42" lean-forward="false" selection-start-line="216" selection-start-column="42" selection-end-line="216" selection-end-column="42" />
+            <state relative-caret-position="1516">
+              <caret line="344" column="65" lean-forward="false" selection-start-line="344" selection-start-column="65" selection-end-line="344" selection-end-column="65" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -76,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="996" column="4" lean-forward="false" selection-start-line="996" selection-start-column="8" selection-end-line="999" selection-end-column="17" />
+            <state relative-caret-position="-2856">
+              <caret line="999" column="20" lean-forward="true" selection-start-line="999" selection-start-column="20" selection-end-line="999" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -151,6 +151,7 @@
       <find>&lt;a href=&quot;loyalty_points.html&quot;&gt;</find>
       <find>panel</find>
       <find>hack</find>
+      <find>nextSamStep</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -184,8 +185,8 @@
         <option value="$PROJECT_DIR$/chat.html" />
         <option value="$PROJECT_DIR$/footbal.html" />
         <option value="$PROJECT_DIR$/transition/css/default.css" />
-        <option value="$PROJECT_DIR$/ricky.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/ricky.html" />
       </list>
     </option>
   </component>
@@ -902,7 +903,7 @@
       <workItem from="1510662055859" duration="2849000" />
       <workItem from="1510685917432" duration="1680000" />
       <workItem from="1510698900524" duration="2466000" />
-      <workItem from="1511163641788" duration="2004000" />
+      <workItem from="1511163641788" duration="3727000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1510219453313</created>
@@ -932,11 +933,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511165011226</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="change score">
+      <created>1511167067032</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1511167067032</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24823000" />
+    <option name="totallyTimeSpent" value="26546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -1398,23 +1406,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2856">
+          <caret line="999" column="20" lean-forward="true" selection-start-line="999" selection-start-column="20" selection-end-line="999" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ricky.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="216" column="42" lean-forward="false" selection-start-line="216" selection-start-column="42" selection-end-line="216" selection-end-column="42" />
+        <state relative-caret-position="1516">
+          <caret line="344" column="65" lean-forward="false" selection-start-line="344" selection-start-column="65" selection-end-line="344" selection-end-column="65" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="996" column="4" lean-forward="false" selection-start-line="996" selection-start-column="8" selection-end-line="999" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
