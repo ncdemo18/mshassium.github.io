@@ -199,7 +199,7 @@
 
         .site-dialog {
             overflow: hidden;
-            width: 95%;
+            width: 70%;
             max-width: 500px;
             padding: 0;
             border-width: 0;
@@ -214,9 +214,9 @@
         .site-dialog.dialog-scale {
             visibility: visible;
             transform: scale(1);
-            left: -70%;
-            top: 15%;
-            width: 350px;
+            left: -88%;
+            top: 35%;
+            width: 150px;
         }
 
         .site-dialog h1 {
@@ -261,7 +261,7 @@
         setInterval(function () {
             jQuery.ajax(settings1).done(function (response) {
                 if(response !== null && response.value === "arsenal" && response.changed === "yes"){
-                    jQuery(".t-shirt").attr("src","./img/t-shirt.jpg")
+                    jQuery(".t-shirt").attr("src","./img/o2.jpg")
                     accountDeleteDialog[0].showModal();
                     transition = window.setTimeout(function () {
                         accountDeleteDialog.addClass('dialog-scale');
@@ -284,14 +284,14 @@
     });</script>
 <div class="footbal">
     <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/9_bHKUOPH9k?rel=0&amp;controls=1&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>-->
-    <iframe width="1280" src="//ok.ru/videoembed/366888749802?autoplay=1" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Tp8OPMWQagQ?autoplay=1&showinfo=0&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     <dialog id="confirm-delete" class="site-dialog">
         <header class="dialog-header">
             <h1>Please Confirm</h1>
         </header>
         <div class="dialog-content">
-            <img class="t-shirt" style="width: 100%" src="./img/t-shirt.jpg"/>
-            <p>Nacho Monreal just scored a goal for Arsenal! Show your team spirit by purchasing a Monreal t-shirt!</p>
+            <img class="t-shirt" style="width: 100%" src="./img/o2.jpg"/>
+            <p>Anthony Watson just scored a try for England! Show your team spirit by buying a Watson jersey!</p>
         </div>
         <div class="btn-group cf">
             <button class="btn btn-cancel" id="cancel">Cancel</button>
