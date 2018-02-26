@@ -7,7 +7,7 @@ html, body { height: 100%; }
 	-webkit-perspective: 1200px;
 	-moz-perspective: 1200px;
 	perspective: 1200px;
-	background-image: url('../../mockup/uae_cut/bg_top_ricky.png');
+	background-image: url('../../mockup/bg/bg_top_ricky.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
@@ -82,27 +82,27 @@ html, body { height: 100%; }
 }
 
 /*.pt-page-1 {
-	background-image: url('../../mockup/uae_cut/bg_bottom.png');
+	background-image: url('../../mockup/bg/bg_bottom.png');
 }
 
 .pt-page-2 {
-	background-image: url('../../mockup/uae_cut/bg_bottom.png');
+	background-image: url('../../mockup/bg/bg_bottom.png');
 }
 
 .pt-page-3 {
-	background-image: url('../../mockup/uae_cut/bg_bottom.png');
+	background-image: url('../../mockup/bg/bg_bottom.png');
 }
 
 .pt-page-4 {
-	background-image: url('../../mockup/uae_cut/bg_bottom.png');
+	background-image: url('../../mockup/bg/bg_bottom.png');
 }
 
 .pt-page-5 {
-	background-image: url('../../mockup/uae_cut/bg_bottom.png');
+	background-image: url('../../mockup/bg/bg_bottom.png');
 }
 
 .pt-page-6 {
-	background-image: url('../../mockup/uae_cut/bg_bottom.png');
+	background-image: url('../../mockup/bg/bg_bottom.png');
 }*/
 
 /* Triggers (menu and button) */
