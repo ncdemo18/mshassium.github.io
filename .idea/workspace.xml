@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54d531a5-8b80-4a10-a0d2-f60e04744545" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/1 Lock Screen.png" afterPath="$PROJECT_DIR$/mockup/1 Lock Screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/10 Media Center - Pass recieved.png" afterPath="$PROJECT_DIR$/mockup/10 Media Center - Pass recieved.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/2 Lock Screen.png" afterPath="$PROJECT_DIR$/mockup/2 Lock Screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/3 Media Center.png" afterPath="$PROJECT_DIR$/mockup/3 Media Center.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/5 Match page.png" afterPath="$PROJECT_DIR$/mockup/5 Match page.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/8 Media Center.png" afterPath="$PROJECT_DIR$/mockup/8 Media Center.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/bg/1 Lock Screen.png" afterPath="$PROJECT_DIR$/mockup/bg/1 Lock Screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/bg/11 Loyalty points.png" afterPath="$PROJECT_DIR$/mockup/bg/11 Loyalty points.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/bg/12 Offers for me.png" afterPath="$PROJECT_DIR$/mockup/bg/12 Offers for me.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/bg/13 Loyalty events near me.png" afterPath="$PROJECT_DIR$/mockup/bg/13 Loyalty events near me.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/bg/2 Lock Screen.png" afterPath="$PROJECT_DIR$/mockup/bg/2 Lock Screen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/bg/3 Media Center.png" afterPath="$PROJECT_DIR$/mockup/bg/3 Media Center.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/bg/5 Match page.png" afterPath="$PROJECT_DIR$/mockup/bg/5 Match page.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="54d531a5-8b80-4a10-a0d2-f60e04744545" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -116,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1 Lock Screen.png" pinned="false" current-in-tab="false">
+      <file leaf-file-name="1 Lock Screen.png" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mockup/1 Lock Screen.png">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -130,8 +115,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1 Lock Screen.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1 Lock Screen.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mockup/bg/1 Lock Screen.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2 Lock Screen.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mockup/2 Lock Screen.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -873,10 +865,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62236000" />
+    <option name="totallyTimeSpent" value="62362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -891,7 +884,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27921093" sideWeight="0.4942717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27921093" sideWeight="0.4942717" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1124,11 +1117,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mockup/uae_cut/1 Lock Screen.png" />
-    <entry file="file://$PROJECT_DIR$/mockup/1 Lock Screen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sam.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1175,11 +1163,6 @@
         <state relative-caret-position="17">
           <caret line="217" column="18" lean-forward="false" selection-start-line="217" selection-start-column="18" selection-end-line="217" selection-end-column="18" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mockup/2 Lock Screen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mockup/3 Media Center.png">
@@ -1294,6 +1277,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockup/2 Lock Screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockup/1 Lock Screen.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
