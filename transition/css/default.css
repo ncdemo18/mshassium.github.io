@@ -59,19 +59,19 @@ button:hover, .dl-trigger:hover{
 	min-height: 80px;
 	/*background-color: #1b2a36;*/
 	position: absolute;
-	left: 400px;
-	top: 170px;
+	left: 252px;
+	top: 85px;
 	z-index: 10;
 }
 .hack_time_block_2 {
 	position: absolute;
-	top: 106px;
-	left: 34px;
+	top: 62px;
+	left: 30px;
 }
 .hack_date_block_2 {
 	position: absolute;
-	top: 123px;
-	left: 316px;
+	top: 65px;
+	left: 170px;
 }
 
 .hack_loyalty_block_2{
@@ -79,8 +79,8 @@ button:hover, .dl-trigger:hover{
 	max-width: 142px;
 	min-height: 42px;
 	position: absolute;
-	left: calc(100% - 116px);
-	top: 118px;
+	left: 703px;
+	top: 68px;
 	z-index: 10;
 }
 
@@ -119,9 +119,9 @@ button:hover, .dl-trigger:hover{
 	max-width: 142px;
 	min-height: 42px;
 	position: absolute;
-	left: 648px;
+	left: 365px;
 	display: inline-block;
-	top: 444px;
+	top: 250px;
 	z-index: 10;
 }
 
@@ -130,9 +130,9 @@ button:hover, .dl-trigger:hover{
 	max-width: 142px;
 	min-height: 42px;
 	position: absolute;
-	left: 794px;
+	left: 444px;
 	display: inline-block;
-	top: 465px;
+	top: 265px;
 	z-index: 10;
 }
 
@@ -141,24 +141,24 @@ button:hover, .dl-trigger:hover{
 	max-width: 142px;
 	min-height: 42px;
 	position: absolute;
-	left: 919px;
+	left: 514px;
 	display: inline-block;
-	top: 253px;
+	top: 145px;
 	z-index: 10;
 }
 
 .hack_score_left{
-	font-size: 44px;
+	font-size: 23px;
 	display: inline-block;
 }
 .hack_score_dash{
-	font-size: 44px;
+	font-size: 23px;
 	display: inline-block;
 	padding-left: 3px;
 }
 
 .hack_score_right{
-	font-size: 44px;
+	font-size: 23px;
 	display: inline-block;
 	padding-left: 3px;
 }
@@ -169,7 +169,7 @@ button:hover, .dl-trigger:hover{
 }
 
 .loyalty_current_value_2 {
-	font-size: 38px;
+	font-size: 19px;
 	transition: all 1s ease;
 }
 
@@ -179,8 +179,8 @@ button:hover, .dl-trigger:hover{
 	min-height: 80px;
 	/*background-color: #1b2a36;*/
 	position: absolute;
-	left: 750px;
-	top: 180px;
+	left: 400px;
+	top: 90px;
 	z-index: 10;
 }
 
@@ -190,13 +190,13 @@ button:hover, .dl-trigger:hover{
     min-height: 42px;
     /*background-color: #1b2a36;*/
     position: absolute;
-    left: calc(100% - 288px);
-    top: 42px;
+    left: 610px;
+    top: 23px;
     z-index: 10;
 }
 
 .loyalty_current_value{
-	font-size: 23px;
+	font-size: 13px;
 	transition:all 1s ease;
 }
 
@@ -212,7 +212,7 @@ button:hover, .dl-trigger:hover{
 
 .panel_img_rick{
 	position: absolute;
-    left: 89%;
+    left: 72%;
     max-height: 100vh;
     overflow-y: scroll;
     z-index: 2;
@@ -224,7 +224,7 @@ button:hover, .dl-trigger:hover{
 
 .panel_img_sam{
 	position: absolute;
-	left: 86%;
+	left: 70%;
 	max-height: 100vh;
 	overflow-y: scroll;
 	z-index: 2;
@@ -241,10 +241,10 @@ button:hover, .dl-trigger:hover{
 }
 
 .time_current_value{
-	font-size: 55px;
+	font-size: 28px;
 }
 .date_current_value{
-	font-size: 30px;
+	font-size: 25px;
 }
 .date_day_name{
 	color: #5a5a5a;
