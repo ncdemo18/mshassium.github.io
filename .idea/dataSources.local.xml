@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="dataSourceStorageLocal">
-    <data-source name="jdbc:oracle:thin:@10.250.10.47:1524/DBG125" uuid="348b9587-18a6-40dd-ba0f-4e5c5265abcc">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
-      <introspection-schemas>*:U39_I2_6935</introspection-schemas>
-    </data-source>
-  </component>
-</project>
