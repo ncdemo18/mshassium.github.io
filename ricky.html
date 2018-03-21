@@ -203,6 +203,7 @@
         }
 
     }
+
     function checkScoreAndChange() {
         var addScoreSettings = {
             "async": false,
@@ -213,21 +214,45 @@
         jQuery.ajax(addScoreSettings).done(function (response) {
             console.log("Check Score");
             var changed = response.changed;
-            if(changed==="yes"){
-                if(response.value==="evertone"){
+            if (changed === "yes") {
+                if (response.value === "evertone") {
                     var textVal = jQuery(".hack_score_right")[0];
                     var textVal2 = jQuery(textVal).text();
-                    var scoreEvertone = parseInt(textVal2)+1;
+                    var scoreEvertone = parseInt(textVal2) + 1;
                     jQuery(".hack_score_right").text(scoreEvertone)
-                }else{
+                } else {
                     var textVal = jQuery(".hack_score_left")[0];
                     var textVal2 = jQuery(textVal).text();
-                    var scoreArsenal = parseInt(textVal2)+1;
+                    var scoreArsenal = parseInt(textVal2) + 1;
                     jQuery(".hack_score_left").text(scoreArsenal)
                 }
             }
         });
     };
+    jQuery(document).ready(function () {
+        var settingsForLocation = {
+            "async": false,
+            "url": "https://rest-sample-nc.herokuapp.com/api/location/get",
+            "method": "GET",
+            "procesData": false
+        };
+        jQuery.ajax(settingsForLocation).done(function (response) {
+            if (response.value != null) {
+                jQuery("img").each(function (key, value) {
+                    var oldSrc = jQuery(value).attr("src");
+                    var srcSplit = oldSrc.split("/")
+                    srcSplit[1] = response.value;
+                    var newSrc = "";
+                    for (var i = 0; i < srcSplit.length; i++) {
+                        newSrc += srcSplit[i] + "/"
+                    }
+                    ;
+                    newSrc = newSrc.slice(0, -1);
+                    jQuery(value).attr("src", newSrc);
+                });
+            }
+        });
+    });
 </script>
 </body>
 </html>
