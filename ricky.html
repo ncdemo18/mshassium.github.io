@@ -117,8 +117,17 @@
         if (minutes < 10) {
             minutes = "0" + minutes;
         }
+        var todayDate = d.getDate();
+        var endDayPhrase = "th";
+        if (todayDate === "2" || todayDate === "22") {
+            endDayPhrase = "nd"
+        } else if (todayDate === "3" || todayDate === "23") {
+            endDayPhrase = "rd"
+        } else if (todayDate === "1" || todayDate === "21" || todayDate === "31") {
+            endDayPhrase = "st"
+        }
         jQuery(".time_current_value").text(hour + ":" + minutes + "    " + timeDop)
-        jQuery(".date_current_value").text(month + " " + d.getDate() + "th, 2018")
+        jQuery(".date_current_value").text(month + " " + todayDate + endDayPhrase + ", 2018")
         jQuery(".date_day_name").text(dateDay)
     });
     var page = null;
