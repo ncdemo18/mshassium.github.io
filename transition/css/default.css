@@ -57,20 +57,21 @@ button:hover, .dl-trigger:hover{
 	min-width: 310px;
 	max-width: 310px;
 	min-height: 80px;
+	/*background-color: #1b2a36;*/
 	position: absolute;
-	left: 256px;
-	top: 112px;
+	left: 400px;
+	top: 170px;
 	z-index: 10;
 }
 .hack_time_block_2 {
 	position: absolute;
-	top: 86px;
-	left: 43px;
+	top: 106px;
+	left: 34px;
 }
 .hack_date_block_2 {
 	position: absolute;
-	top: 83px;
-	left: 232px;
+	top: 123px;
+	left: 316px;
 }
 
 .hack_loyalty_block_2{
@@ -78,8 +79,8 @@ button:hover, .dl-trigger:hover{
 	max-width: 142px;
 	min-height: 42px;
 	position: absolute;
-	left: calc(100% - 89px);
-	top: 89px;
+	left: calc(100% - 116px);
+	top: 118px;
 	z-index: 10;
 }
 
@@ -118,9 +119,9 @@ button:hover, .dl-trigger:hover{
 	max-width: 142px;
 	min-height: 42px;
 	position: absolute;
-	left: 479px;
+	left: 648px;
 	display: inline-block;
-	top: 324px;
+	top: 444px;
 	z-index: 10;
 }
 
@@ -140,24 +141,24 @@ button:hover, .dl-trigger:hover{
 	max-width: 142px;
 	min-height: 42px;
 	position: absolute;
-	left: 684px;
+	left: 919px;
 	display: inline-block;
-	top: 186px;
+	top: 253px;
 	z-index: 10;
 }
 
 .hack_score_left{
-	font-size: 37px;
+	font-size: 44px;
 	display: inline-block;
 }
 .hack_score_dash{
-	font-size: 37px;
+	font-size: 44px;
 	display: inline-block;
 	padding-left: 3px;
 }
 
 .hack_score_right{
-	font-size: 37px;
+	font-size: 44px;
 	display: inline-block;
 	padding-left: 3px;
 }
@@ -168,7 +169,7 @@ button:hover, .dl-trigger:hover{
 }
 
 .loyalty_current_value_2 {
-	font-size: 28px;
+	font-size: 38px;
 	transition: all 1s ease;
 }
 
@@ -176,9 +177,10 @@ button:hover, .dl-trigger:hover{
 	min-width: 310px;
 	max-width: 310px;
 	min-height: 80px;
+	/*background-color: #1b2a36;*/
 	position: absolute;
-	left: 550px;
-	top: 127px;
+	left: 750px;
+	top: 180px;
 	z-index: 10;
 }
 
@@ -188,8 +190,8 @@ button:hover, .dl-trigger:hover{
 	min-height: 42px;
 	/*background-color: #1b2a36;*/
 	position: absolute;
-	left: calc(100% - 219px);
-	top: 29px;
+	left: calc(100% - 288px);
+	top: 42px;
 	z-index: 10;
 }
 
@@ -210,7 +212,7 @@ button:hover, .dl-trigger:hover{
 
 .panel_img_rick{
 	position: absolute;
-	left: 83%;
+	left: 89%;
 	max-height: 100vh;
 	overflow-y: scroll;
 	z-index: 2;
@@ -239,7 +241,7 @@ button:hover, .dl-trigger:hover{
 }
 
 .time_current_value{
-	font-size: 37px;
+	font-size: 55px;
 }
 .date_current_value{
 	font-size: 30px;
