@@ -55,7 +55,7 @@
         "method": "GET",
         "procesData": false
     };
-    setInterval(function (settings) {
+    setInterval(function () {
         jQuery.ajax(settings).done(function (response) {
             if (response.changed === "yes") {
                 page = response.value;
