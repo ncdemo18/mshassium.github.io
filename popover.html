@@ -1,0 +1,58 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="./latoja.datepicker.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-popover@0.0.4/src/jquery-popover.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $("#datepicker").datepicker({
+                onSelect: function (dateText) {
+                    showPopover(dateText)
+                }
+            });
+            $(".btn-primary").on("click","");
+        });
+    </script>
+    <style>
+        .popover{
+            left: 210px !important;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div id="popover-2-content" class="hidden"> </div>
+    <div id="popover-2-title" class="hidden"> </div>
+    <div id="datepicker" class="date-picker ll-skin-latoja"></div>
+</div>
+
+<script>
+    //
+
+    function showPopover(dateText) {
+        jQuery('#popover-2-title').html('<b>Avialable Appiontments</b>');
+        var html = '<button class="btn btn-primary" startDate="' + dateText + ' 8:00 AM" endDate="' + dateText + ' 9:00 AM">8:00 am - 9:00 am</button><br><button  class="btn btn-primary" startDate="' + dateText + ' 10:00 AM" endDate="' + dateText + ' 12:00 PM">10:00 am - 12:00 pm</button><br><button  class="btn btn-primary" startDate="' + dateText + ' 12:00 PM" endDate="' + dateText + ' 2:00 PM">12:00 pm - 2:00 pm</button>';
+        jQuery('#popover-2-content').html('Avialable Appiontments On <strong>' + dateText + '</strong><br>' + html);
+        jQuery('.date-picker').popover({
+            html: true,
+            content: function () {
+                return jQuery("#popover-2-content").html();
+            },
+            title: function () {
+                return jQuery("#popover-2-title").html();
+            }
+        });
+        jQuery('.date-picker').popover('show');
+    }
+</script>
+</body>
+

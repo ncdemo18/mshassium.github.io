@@ -15,6 +15,15 @@
     <link rel="stylesheet" type="text/css" href="transition/css/animations.css"/>
     <script src="transition/js/modernizr.custom.js"></script>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="./latoja.datepicker.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
 </head>
 <body>
 <!-- <div class="pt-triggers"> -->
@@ -25,7 +34,19 @@
         <img class="bcg_img_one steP-one" src="mockup/vodafone/3.png">
     </div>
     <div class="pt-page pt-page-2" style="display: none">
-        <img class="bcg_img_one" src="mockup/vodafone/shedule.png">
+        <!--<img class="bcg_img_one" src="mockup/vodafone/shedule.png">-->
+        <div>
+            <span style="font-size: 22px;
+    text-align: center;
+    position: relative;
+    margin: 20px;
+    top: 30px;">Schedule Installation Appointment</span>
+            <div id="popover-2-content" class="hidden"></div>
+            <div id="popover-2-title" class="hidden"></div>
+            <div id="datepicker" style="    top: 50px;
+    position: relative;
+    left: 21%;" class="date-picker ll-skin-latoja"></div>
+        </div>
     </div>
     <div class="pt-page pt-page-3" style="display: none">
         <img class="bcg_img_one" src="mockup/vodafone/4.png">
@@ -37,10 +58,33 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="transition/js/jquery.dlmenu.js"></script>
 <script src="transition/js/pagetransitions.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-popover@0.0.4/src/jquery-popover.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+<script>
+
+</script>
+<style>
+    .popover {
+        top: 340px !important;
+        left: 50px !important;
+        display: block;
+    }
+</style>
 <script>
     var settingsNext = {
         "async": false,
         "url": "https://rest-sample-nc.herokuapp.com/api/dashboard/step/push/Vodafone/1",
+        "method": "GET",
+        "procesData": false
+    };
+    var settingsNext2 = {
+        "async": false,
+        "url": "https://rest-sample-nc.herokuapp.com/api/dashboard/step/push/Vodafone/2",
         "method": "GET",
         "procesData": false
     };
@@ -63,7 +107,34 @@
             }
         })
     }, 3000);
+    $(function () {
+        $("#datepicker").datepicker({
+            onSelect: function (dateText) {
+                showPopover(dateText)
+                $(".btn-primary").on("click", function () {
+                    jQuery.ajax(settingsNext2)
+                    console.log("click")
+                });
+            }
+        });
 
+    });
+
+    function showPopover(dateText) {
+        jQuery('#popover-2-title').html('<b>Avialable Appiontments</b>');
+        var html = '<button class="btn btn-primary" startDate="' + dateText + ' 8:00 AM" endDate="' + dateText + ' 9:00 AM">8:00 am - 9:00 am</button><br><button  class="btn btn-primary" startDate="' + dateText + ' 10:00 AM" endDate="' + dateText + ' 12:00 PM">10:00 am - 12:00 pm</button><br><button  class="btn btn-primary" startDate="' + dateText + ' 12:00 PM" endDate="' + dateText + ' 2:00 PM">12:00 pm - 2:00 pm</button>';
+        jQuery('#popover-2-content').html('Avialable Appiontments On <strong>' + dateText + '</strong><br>' + html);
+        jQuery('.date-picker').popover({
+            html: true,
+            content: function () {
+                return jQuery("#popover-2-content").html();
+            },
+            title: function () {
+                return jQuery("#popover-2-title").html();
+            }
+        });
+        jQuery('.date-picker').popover('show');
+    }
 
 </script>
 </body>
