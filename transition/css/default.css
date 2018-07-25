@@ -65,13 +65,13 @@ button:hover, .dl-trigger:hover{
 }
 .hack_time_block_2 {
 	position: absolute;
-	top: 106px;
+	top: 210px;
 	left: 34px;
 }
 .hack_date_block_2 {
 	position: absolute;
-	top: 123px;
-	left: 316px;
+	top: 200px;
+    left: 430px;
 }
 
 .hack_loyalty_block_2{
