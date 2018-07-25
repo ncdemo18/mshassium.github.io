@@ -79,8 +79,8 @@ button:hover, .dl-trigger:hover{
 	max-width: 142px;
 	min-height: 42px;
 	position: absolute;
-	left: calc(100% - 116px);
-	top: 118px;
+	left: calc(100% - 126px);
+    top: 230px;
 	z-index: 10;
 }
 
@@ -169,7 +169,7 @@ button:hover, .dl-trigger:hover{
 }
 
 .loyalty_current_value_2 {
-	font-size: 38px;
+	font-size: 50px;
 	transition: all 1s ease;
 }
 
