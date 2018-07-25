@@ -119,9 +119,9 @@ button:hover, .dl-trigger:hover{
 	max-width: 142px;
 	min-height: 42px;
 	position: absolute;
-	left: 648px;
-	display: inline-block;
-	top: 444px;
+	left: 1625px;
+    display: inline-block;
+    top: 850px;
 	z-index: 10;
 }
 
@@ -158,18 +158,18 @@ button:hover, .dl-trigger:hover{
 }
 
 .hack_score_right{
-	font-size: 44px;
+	font-size: 70px;
 	display: inline-block;
 	padding-left: 3px;
 }
 
 .loyalty_current_value_page{
-	font-size: 38px;
+	font-size: 70px;
 	transition: all 1s ease;
 }
 
 .loyalty_current_value_2 {
-	font-size: 50px;
+	font-size: 70px;
 	transition: all 1s ease;
 }
 
