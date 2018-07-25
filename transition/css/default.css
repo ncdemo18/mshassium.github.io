@@ -55,12 +55,12 @@ button:hover, .dl-trigger:hover{
 
 .hack_time_block{
 	min-width: 310px;
-	max-width: 310px;
+	max-width: 350px;
 	min-height: 80px;
 	/*background-color: #1b2a36;*/
 	position: absolute;
-	left: 400px;
-	top: 170px;
+	left: 520px;
+	top: 210px;
 	z-index: 10;
 }
 .hack_time_block_2 {
@@ -241,7 +241,7 @@ button:hover, .dl-trigger:hover{
 }
 
 .time_current_value{
-	font-size: 55px;
+	font-size: 80px;
 }
 .date_current_value{
 	font-size: 30px;
