@@ -80,7 +80,7 @@ button:hover, .dl-trigger:hover{
 	min-height: 42px;
 	position: absolute;
 	left: calc(100% - 126px);
-    top: 230px;
+    top: 228px;
 	z-index: 10;
 }
 
