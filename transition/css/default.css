@@ -179,8 +179,8 @@ button:hover, .dl-trigger:hover{
 	min-height: 80px;
 	/*background-color: #1b2a36;*/
 	position: absolute;
-	left: 750px;
-	top: 180px;
+	left: 1000px;
+	top: 220px;
 	z-index: 10;
 }
 
@@ -244,10 +244,10 @@ button:hover, .dl-trigger:hover{
 	font-size: 80px;
 }
 .date_current_value{
-	font-size: 30px;
+	font-size: 35px;
 }
 .date_day_name{
-	color: #5a5a5a;
+	color: #6f6f9a;
 	opacity: 0.9;
 }
 .bcg_img_one{
