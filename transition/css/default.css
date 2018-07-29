@@ -65,13 +65,13 @@ button:hover, .dl-trigger:hover{
 }
 .hack_time_block_2 {
 	position: absolute;
-	top: 210px;
-	left: 34px;
+	top: 150px;
+	left: 50px;
 }
 .hack_date_block_2 {
 	position: absolute;
-	top: 210px;
-    left: 395px;
+	top: 150px;
+    left: 470px;
 }
 
 .hack_loyalty_block_2{
@@ -79,8 +79,8 @@ button:hover, .dl-trigger:hover{
 	max-width: 142px;
 	min-height: 42px;
 	position: absolute;
-	left: calc(100% - 126px);
-    top: 228px;
+	left: calc(100% - 156px);
+    top: 156px;
 	z-index: 10;
 }
 
@@ -119,9 +119,9 @@ button:hover, .dl-trigger:hover{
 	max-width: 142px;
 	min-height: 42px;
 	position: absolute;
-	left: 1625px;
-    display: inline-block;
-    top: 850px;
+	left: 1685px;
+	display: inline-block;
+	top: 900px;
 	z-index: 10;
 }
 
@@ -134,6 +134,7 @@ button:hover, .dl-trigger:hover{
 	display: inline-block;
 	top: 465px;
 	z-index: 10;
+	visibility: hidden;
 }
 
 .hack_score_block_3{
@@ -169,7 +170,7 @@ button:hover, .dl-trigger:hover{
 }
 
 .loyalty_current_value_2 {
-	font-size: 51px;
+	font-size: 70px;
 	transition: all 1s ease;
 }
 
@@ -191,12 +192,12 @@ button:hover, .dl-trigger:hover{
 	/*background-color: #1b2a36;*/
 	position: absolute;
 	left: calc(100% - 288px);
-	top: 42px;
+	top: 60px;
 	z-index: 10;
 }
 
 .loyalty_current_value{
-	font-size: 23px;
+	font-size: 30px;
 	transition:all 1s ease;
 }
 
