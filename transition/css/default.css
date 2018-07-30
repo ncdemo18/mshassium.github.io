@@ -146,6 +146,7 @@ button:hover, .dl-trigger:hover{
 	display: inline-block;
 	top: 253px;
 	z-index: 10;
+	visibility: hidden;
 }
 
 .hack_score_left{
