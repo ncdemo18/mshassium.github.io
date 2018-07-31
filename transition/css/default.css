@@ -59,19 +59,19 @@ button:hover, .dl-trigger:hover{
 	min-height: 80px;
 	/*background-color: #1b2a36;*/
 	position: absolute;
-	left: 520px;
-	top: 210px;
+	left: 380px;
+	top: 150px;
 	z-index: 10;
 }
 .hack_time_block_2 {
 	position: absolute;
-	top: 150px;
-	left: 50px;
+	top: 100px;
+	left: 30px;
 }
 .hack_date_block_2 {
 	position: absolute;
-	top: 150px;
-    left: 470px;
+	top: 100px;
+    left: 330px;
 }
 
 .hack_loyalty_block_2{
@@ -79,8 +79,8 @@ button:hover, .dl-trigger:hover{
 	max-width: 142px;
 	min-height: 42px;
 	position: absolute;
-	left: calc(100% - 156px);
-    top: 156px;
+	left: calc(100% - 126px);
+    top: 108px;
 	z-index: 10;
 }
 
@@ -119,9 +119,9 @@ button:hover, .dl-trigger:hover{
 	max-width: 142px;
 	min-height: 42px;
 	position: absolute;
-	left: 1685px;
-	display: inline-block;
-	top: 900px;
+	left: 1200px;
+    display: inline-block;
+    top: 630px;
 	z-index: 10;
 }
 
@@ -150,17 +150,17 @@ button:hover, .dl-trigger:hover{
 }
 
 .hack_score_left{
-	font-size: 70px;
+	font-size: 58px;
 	display: inline-block;
 }
 .hack_score_dash{
-	font-size: 70px;
+	font-size: 58px;
 	display: inline-block;
 	padding-left: 3px;
 }
 
 .hack_score_right{
-	font-size: 70px;
+	font-size: 58px;
 	display: inline-block;
 	padding-left: 3px;
 }
@@ -171,7 +171,7 @@ button:hover, .dl-trigger:hover{
 }
 
 .loyalty_current_value_2 {
-	font-size: 70px;
+	font-size: 56px;
 	transition: all 1s ease;
 }
 
@@ -181,8 +181,8 @@ button:hover, .dl-trigger:hover{
 	min-height: 80px;
 	/*background-color: #1b2a36;*/
 	position: absolute;
-	left: 1000px;
-	top: 210px;
+	left: 730px;
+	top: 150px;
 	z-index: 10;
 }
 
@@ -192,8 +192,8 @@ button:hover, .dl-trigger:hover{
 	min-height: 42px;
 	/*background-color: #1b2a36;*/
 	position: absolute;
-	left: calc(100% - 288px);
-	top: 60px;
+	left: calc(100% - 218px);
+	top: 38px;
 	z-index: 10;
 }
 
@@ -243,10 +243,10 @@ button:hover, .dl-trigger:hover{
 }
 
 .time_current_value{
-	font-size: 80px;
+	font-size: 62px;
 }
 .date_current_value{
-	font-size: 45px;
+	font-size: 40px;
 }
 .date_day_name{
 	color: #738391;
