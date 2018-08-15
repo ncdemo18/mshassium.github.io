@@ -92,6 +92,7 @@
 </div>
 <script>
     w3.includeHTML();
+
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="transition/js/jquery.dlmenu.js"></script>
@@ -167,8 +168,11 @@
     var footbalOpen = false;
     var interval1 = setInterval(function () {
         jQuery.ajax(settingsSession).done(function (response) {
+        console.log(response);
             if (response !== null && response.cleared === "yes") {
-                clearInterval(interval);
+                console.log(response.cleared);
+                console.log(interval1);
+                clearInterval(interval1);
             }
         });
 
@@ -276,6 +280,7 @@
             }
         });
     });
+
 </script>
 </body>
 </html>
