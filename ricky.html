@@ -168,10 +168,11 @@
     var footbalOpen = false;
     var interval1 = setInterval(function () {
         jQuery.ajax(settingsSession).done(function (response) {
-        console.log(response);
+            console.log(response);
             if (response !== null && response.cleared === "yes") {
                 console.log(response.cleared);
                 console.log(interval1);
+                clearInterval(interval);
                 clearInterval(interval1);
             }
         });
