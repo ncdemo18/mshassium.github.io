@@ -152,12 +152,26 @@
         "method": "GET",
         "procesData": false
     };
+
+    var settingsSession = {
+        "async": false,
+        "url": "https://test-api-nc.herokuapp.com/api/dashboard/closed/session/Ricky",
+        "method": "GET",
+        "procesData": false
+    };
+
     var step3Ricky = true;
     var crossuserFunction = true;
     var loyalty_point = 360;
     var loyaltyStep = false;
     var footbalOpen = false;
     var interval1 = setInterval(function () {
+        jQuery.ajax(settingsSession).done(function (response) {
+            if (response !== null && response.cleared === "yes") {
+                clearInterval(interval);
+            }
+        });
+
         jQuery.ajax(settings1).done(function (response) {
             if (step3Ricky && jQuery(".pt-page-3").hasClass("pt-page-current")) {
                 setTimeout(function () {
