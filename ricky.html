@@ -1,287 +1,148 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Collection of Page Transitions</title>
-    <meta name="description" content="A Collection of Page Transitions with CSS Animations"/>
-    <meta name="keywords" content="page transition, css animation, website, effect, css3, jquery"/>
-    <meta name="author" content="Codrops"/>
-    <link rel="shortcut icon" href="transition/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="transition/css/default.css"/>
-    <link rel="stylesheet" type="text/css" href="transition/css/multilevelmenu.css"/>
-    <link rel="stylesheet" type="text/css" href="transition/css/component.css"/>
-    <link rel="stylesheet" type="text/css" href="transition/css/animations.css"/>
-    <script src="transition/js/modernizr.custom.js"></script>
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
-</head>
-<body>
-<button id="iterateEffects" hidden class="pt-touch-button">Show next page transition</button>
-<div id="pt-main" class="pt-perspective">
-    <div class="pt-page pt-page-1" style="display: none">
-        <div class="hack_time_block">
-            <div class="time_current_value"></div>
-        </div>
-        <div class="scroll-image">
-            <img class="bcg_img_one" src="mockup/london/bg/1 Lock Screen.png">
-        </div>
-        <div class="hack_date_block">
-            <div class="date_current_value"></div>
-            <div class="date_day_name"></div>
-        </div>
-    </div>
-    <div class="pt-page pt-page-2" style="display: none">
-        <div class="scroll-image">
-            <img class="bcg_img_one" src="mockup/london/bg/2 Lock Screen.png">
-        </div>
-        <div class="hack_date_block_2">
-            <div class="date_current_value"></div>
-            <div class="date_day_name"></div>
-        </div>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 
-        <div class="hack_score_block_1">
-            <div class="hack_score_left">0</div>
-            <div class="hack_score_dash">:</div>
-            <div class="hack_score_right">0</div>
-        </div>
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/animations.css" />
 
-        <div class="hack_time_block_2">
-            <div class="time_current_value"></div>
-        </div>
-        <div class="hack_loyalty_block_2">
-            <a href="loyalty_points.html" target="blank">
-                <div class="loyalty_current_value_2">365</div>
-            </a>
-        </div>
-    </div>
-    <div class="six_ticket_count_div" style="visibility: hidden">
-        <img class="six_ticket_count" src="mockup/london/bg/Passes Button - 6.png">
-    </div>
-    <div class="wrap_panel_ricky">
-        <img class="panel_img_rick" src="mockup/london/bg/Passes Panel - Ricky.png">
-    </div>
-    <div class="pt-page pt-page-3" style="display: none">
-        <div class="hack_loyalty_block">
-            <a href="loyalty_points.html" target="blank">
-                <div class="loyalty_current_value">365</div>
-            </a>
-        </div>
-        <div class="scroll-image">
-            <img class="bcg_img_one" src="mockup/london/bg/3 Media Center.png">
-        </div>
-        <div class="hack_score_block_2">
-            <div class="hack_score_left">0</div>
-            <div class="hack_score_dash">:</div>
-            <div class="hack_score_right">0</div>
-        </div>
-    </div>
-    <div class="pt-page pt-page-4" style="display: none">
-        <div class="hack_loyalty_block">
-            <a href="loyalty_points.html" target="blank">
-                <div class="loyalty_current_value">365</div>
-            </a>
-        </div>
-        <img class="bcg_img_one" src="mockup/london/bg/5 Match page.png">
-        <div class="hack_score_block_3">
-            <div class="hack_score_left">0</div>
-            <div class="hack_score_dash">:</div>
-            <div class="hack_score_right">0</div>
-        </div>
-    </div>
-</div>
-<script>
-    w3.includeHTML();
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="transition/js/jquery.dlmenu.js"></script>
-<script src="transition/js/pagetransitions.js"></script>
-<script>
-    var monthNames = ["January", "February", "March", "April", "May", "June",
-        "July", "August", "September", "October", "November", "December"
-    ];
-    var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    jQuery(document).ready(function () {
-        var d = new Date();
-        var hour = d.getHours();
-        var timeDop = "am";
-        var month = monthNames[d.getMonth()];
-        var dateDay = days[d.getDay()];
-        if (hour > 12) {
-            timeDop = "pm"
-        }
-        if (hour < 10) {
-            hour = "0" + hour;
-        }
-        var minutes = d.getMinutes();
-        if (minutes < 10) {
-            minutes = "0" + minutes;
-        }
-        var todayDate = d.getDate();
-        var endDayPhrase = "th";
-        if (todayDate === "2" || todayDate === "22") {
-            endDayPhrase = "nd"
-        } else if (todayDate === "3" || todayDate === "23") {
-            endDayPhrase = "rd"
-        } else if (todayDate === "1" || todayDate === "21" || todayDate === "31") {
-            endDayPhrase = "st"
-        }
-        jQuery(".time_current_value").text(hour + ":" + minutes + "    " + timeDop)
-        jQuery(".date_current_value").text(month + " " + todayDate + endDayPhrase + ", 2018")
-        jQuery(".date_day_name").text(dateDay)
-    });
-    var page = null;
-    var settings = {
-        "async": false,
-        "url": "https://test-api-nc.herokuapp.com/api/dashboard/step/get/Ricky",
-        "method": "GET",
-        "procesData": false
-    };
-    var interval = setInterval(function () {
-        jQuery.ajax(settings).done(function (response) {
-            if (response.changed === "yes") {
-                page = response.value;
-                jQuery(jQuery("#iterateEffects")[0]).click();
-            }
-        });
-    }, 3000);
-
-    var settings1 = {
-        "async": false,
-        "url": "https://test-api-nc.herokuapp.com/api/dashboard/next/Ricky",
-        "method": "GET",
-        "procesData": false
-    };
-
-    var settingsSession = {
-        "async": false,
-        "url": "https://test-api-nc.herokuapp.com/api/dashboard/closed/session/Ricky",
-        "method": "GET",
-        "procesData": false
-    };
-
-    var step3Ricky = true;
-    var crossuserFunction = true;
-    var loyalty_point = 360;
-    var loyaltyStep = false;
-    var footbalOpen = false;
-    var interval1 = setInterval(function () {
-        jQuery.ajax(settingsSession).done(function (response) {
-            console.log(response);
-            if (response !== null && response.cleared === "yes") {
-                console.log(response.cleared);
-                console.log(interval1);
-                clearInterval(interval);
-                clearInterval(interval1);
-            }
-        });
-
-        jQuery.ajax(settings1).done(function (response) {
-            if (step3Ricky && jQuery(".pt-page-3").hasClass("pt-page-current")) {
-                setTimeout(function () {
-                    jQuery(".wrap_panel_ricky").animate({"opacity": "1"}, "slow")
-                }, 500)
-            } else {
-                jQuery(".wrap_panel_ricky").animate({"opacity": "0"}, "fast")
-            }
-            if (response !== null && response.key === "yes") {
-                if (step3Ricky && jQuery(".pt-page-3").hasClass("pt-page-current")) {
-                    jQuery(".panel_img_rick").animate({"opacity": "0"}, "slow")
-                    jQuery(".six_ticket_count_div").css("visibility", "");
-                    step3Ricky = false;
-                    nextSamStep();
-                    loyaltyStep = true;
-                } else if (loyaltyStep) {
-                    jQuery(".loyalty_current_value").animate({"opacity": "0"}, "slow");
-                    setTimeout(function () {
-                        jQuery(".loyalty_current_value").text("315");
-                        jQuery(".loyalty_current_value").animate({"opacity": "1"}, "slow");
-                    }, 1500)
-                    loyaltyStep = false;
-                } else {
-                    if (jQuery(".pt-page-4").hasClass("pt-page-current")) {
-                        footbalOpen = true;
-                    }
-                    if (footbalOpen) {
-
-                        window.open("http://mshassium.github.io/footbal", '_blank');
-                        window.open("https://hangouts.google.com/call/wj64ayyszfgtnaz462gdsbjx3me", '_blank');
-                    } else {
-                        jQuery(jQuery("#iterateEffects")[0]).click();
-                    }
-                }
-
-            }
-        });
-        checkScoreAndChange();
-    }, 3000);
-
-    function nextSamStep() {
-        var nextSamStepSettings = {
-            "async": false,
-            "url": "https://test-api-nc.herokuapp.com/api/dashboard/next/push/Sam",
-            "method": "GET",
-            "procesData": false
-        };
-        if (crossuserFunction) {
-            jQuery.ajax(nextSamStepSettings).done(function (response) {
-                crossuserFunction = false;
-            });
-        }
-
+    <!--
+   чтобы не подключать кучу файлов, можно подключить один, а внутри написать так:
+   function include(url) {
+        var script = document.createElement('script');
+        script.src = url;
+        document.getElementsByTagName('head')[0].appendChild(script);
     }
 
-    function checkScoreAndChange() {
-        var addScoreSettings = {
-            "async": false,
-            "url": "https://test-api-nc.herokuapp.com/api/dashboard/footbal/score",
-            "method": "GET",
-            "procesData": false
-        };
-        jQuery.ajax(addScoreSettings).done(function (response) {
-            console.log("Check Score");
-            var changed = response.changed;
-            if (changed === "yes") {
-                if (response.value === "evertone") {
-                    var textVal = jQuery(".hack_score_right")[0];
-                    var textVal2 = jQuery(textVal).text();
-                    var scoreEvertone = parseInt(textVal2) + 1;
-                    jQuery(".hack_score_right").text(scoreEvertone)
-                } else {
-                    var textVal = jQuery(".hack_score_left")[0];
-                    var textVal2 = jQuery(textVal).text();
-                    var scoreArsenal = parseInt(textVal2) + 1;
-                    jQuery(".hack_score_left").text(scoreArsenal)
-                }
-            }
-        });
-    };
-    jQuery(document).ready(function () {
-        var settingsForLocation = {
-            "async": false,
-            "url": "https://test-api-nc.herokuapp.com/api/location/get",
-            "method": "GET",
-            "procesData": false
-        };
-        jQuery.ajax(settingsForLocation).done(function (response) {
-            if (response.value != null) {
-                jQuery("img").each(function (key, value) {
-                    var oldSrc = jQuery(value).attr("src");
-                    var srcSplit = oldSrc.split("/")
-                    srcSplit[1] = response.value;
-                    var newSrc = "";
-                    for (var i = 0; i < srcSplit.length; i++) {
-                        newSrc += srcSplit[i] + "/"
-                    }
-                    ;
-                    newSrc = newSrc.slice(0, -1);
-                    jQuery(value).attr("src", newSrc);
-                });
-            }
-        });
-    });
+    Вызов:
 
-</script>
+    include("/js/script.js");
+
+   Тогда можно органировать нормальный порядок загрузки данных.
+   И это позволит плодить файлы js в свое удовольствие.
+   Можно даже иерархию папочек выстроить =)
+   -->
+
+    <script src="utils.js"></script>
+    <script src="generateUserPages.js"></script>
+    <script src="pagetransition.js"></script>
+    <script src="connect.js"></script>
+
+</head>
+
+<body>
+    <button onclick="nextPage()">Transition test button</button>
+
+    <div id="pt-main" class="pt-perspective">
+        <div class="main-div" id="loginBlock">
+            <div>
+                <h2>Login</h2>
+            </div>
+            <form id="Login">
+                <div class="form-group">
+                    <input class="form-control" id="username" placeholder="Login">
+                </div>
+
+                <div class="form-group">
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="login(event)">Login</button>
+            </form>
+        </div>
+
+        <div class="ticket_count_block" style="visibility: hidden">
+            <img id="ticket_count_img_id" src="mockup/london/bg/Passes Button - 6.png">
+        </div>
+
+        <div class="ticket_panel">
+            <img id="ticket_panel_img_id" class="ticket_panel_img" src="mockup/london/bg/Passes Panel - Ricky.png">
+        </div>
+    </div>
+
+
 </body>
+<script>
+
+    function login(event){
+        let username = document.getElementById("username").value;
+        if(username !== undefined && username !== null) {
+            authorization(username);
+        }
+        event.preventDefault();     
+    }
+    
+</script>
+
 </html>
+
+<!--  <div class="pt-page pt-page-1 pt-page-current">
+        <div class="scroll-image" style="text-align:center">
+            <img class="bcg_img_one" src="mockup/london/bg/1 Lock Screen.png">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="time_block col-sm-4">
+                    16:39     pm
+                </div>
+                <div class="date_block col-sm-4">
+                    <div>
+                        October 1th, 2018
+                    </div>
+                    <div class="week_day">
+                        Monday
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ -->
+<!--PAGE 1-->
+
+<!-- <div class="pt-page pt-page-1" id="page_1">
+            <div id="time" class="time_block" style="font-size: 62px"></div>
+            <div id="date" class="time_block" style="left: 730px; font-size: 40px"></div>
+            <div class="scroll-image">
+                <img class="bcg_img_one" src="mockup/london/bg/1 Lock Screen.png">
+            </div>
+            <script>
+                var dateElement = document.getElementById("time");
+                dateElement.textContent = getFormatTime();
+
+                var dateElement = document.getElementById("date");
+                dateElement.textContent = getFormatDate();
+            </script>
+        </div> -->
+
+<!--PAGE 2-->
+
+<!--  <div class="pt-page pt-page-2" id="page_2">
+            <div class="scroll-image">
+                <img class="bcg_img_one" src="mockup/london/bg/2 Lock Screen.png">
+            </div>
+        </div> -->
+
+
+<!--PAGE 3-->
+
+<!-- <div class="pt-page pt-page-2" id="page_3">
+            <div class="scroll-image">
+                <img class="bcg_img_one" src="mockup/london/bg/3 Media Center.png">
+            </div>
+        </div> -->
+
+<!--PAGE 4-->
+
+<!--  <div class="pt-page pt-page-2" id="page_4">
+            <div class="scroll-image">
+                <img class="bcg_img_one" src="mockup/london/bg/5 Match page.png">
+            </div>
+        </div> -->

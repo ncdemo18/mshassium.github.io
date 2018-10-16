@@ -1,0 +1,22 @@
+/********************************* keyframes **************************************/
+
+.pt-page-moveFromRight {
+	-webkit-animation: moveFromRight 1.2s ease both;
+	animation: moveFromRight 1.2s ease both;
+}
+
+@keyframes moveFromRight {
+	from { -webkit-transform: translateX(100%); transform: translateX(100%); }
+}
+
+
+
+.pt-page-fade {
+	-webkit-animation: fade .7s ease both;
+	animation: fade .7s ease both;
+}
+
+@keyframes fade {
+	from { }
+	to { opacity: 0.3; }
+}
