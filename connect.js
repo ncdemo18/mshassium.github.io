@@ -2,8 +2,9 @@
 'use strict';
 
 var stompClient = null;
-//var endpoint = "https://smart-dashboard.herokuapp.com/alexa";
-var endpoint = "http://localhost:8080/alexa";
+var endpoint = "https://alexa-control-panel/alexa";
+//var endpoint = "http://localhost:8080/alexa";
+//var endpoint = "http://localhost:8080/alexa";
 
 // address for actions with user page
 var userSubscribeAddress = "/topic/user/";
@@ -15,8 +16,9 @@ var requestConfigTimerId;
 
 function authorization(username){
     let request = new XMLHttpRequest();
-    let address = 'http://localhost:8080/authorization/' + username;
-    //let address = 'https://smart-dashboard.herokuapp.com/authorization/' + username;
+    //let address = 'http://localhost:8080/authorization/' + username;
+    //let address = 'http://localhost:8080/authorization/' + username;
+    let address = 'https://alexa-control-panel/authorization/' + username;
     request.open('GET', address, true);
     request.send();
     request.onreadystatechange = function() {
