@@ -2,7 +2,7 @@
 'use strict';
 
 var stompClient = null;
-var endpoint = "https://smart-dashboard.herokuapp.com/alexa";//"http://localhost:8080/alexa";
+var endpoint = "https://smart-dashboard.herokuapp.com/alexa";
 //var endpoint = "http://localhost:8080/alexa";
 
 // address for actions with user page
@@ -29,9 +29,6 @@ function authorization(username){
                 alert("not found user!");
             }
         }
-        /* if(this.status != 200) {
-            console.log('error!');
-        } */
     }
 }
 
@@ -75,7 +72,6 @@ function onCommandReceived(frame) {
             case 'GRANT_TICKET':
                 hideTicketPanel("slow");
                 showAvailableTickets();
-                //reduceLoyaltyPoints(50);
                 break;
             case 'TAKE_TICKET':
                 hideTicketPanel("slow");
@@ -85,9 +81,13 @@ function onCommandReceived(frame) {
                 hideTicketPanel("fast");
                 hideAvailableTickets();
                 break;
+            case 'SET_LOYALTY_POINTS':
+                setLoyaltyPoints(alexaCommand.context);
+                break;
             case 'OPEN_FOOTBALL':
                 //TODO: copy video
                 openVideo("http://ncdemo18.github.io/footbal");
+                openVideo("https://hangouts.google.com/call/wj64ayyszfgtnaz462gdsbjx3me")
         }
     } else if(isGeneratePages == false) {
         if(requestConfigTimerId !== undefined) {
@@ -106,5 +106,3 @@ function onFootballScoreReceived(frame){
     let score = frame.body;
     setFootballScore(score);
 }
-
-//connect("ricky");

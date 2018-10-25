@@ -96,6 +96,13 @@ function hideAvailableTickets(){
     $(".ticket_count_block").css("visibility", "hidden");
 }
 
+function setLoyaltyPoints(value) {
+    let loyaltyPointsElements = document.getElementsByClassName("loyalty_value");
+    for(let i = 0; i < loyaltyPointsElements.length; i++) {
+        loyaltyPointsElements[i].textContent = value;
+    }
+}
+
 function reduceLoyaltyPoints(countRemovePoints) {
     let loyaltyPointsElements = document.getElementsByClassName("loyalty_value");
     for(let i = 0; i < loyaltyPointsElements.length; i++) {
