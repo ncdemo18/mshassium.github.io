@@ -2,21 +2,21 @@
 'use strict';
 
 var stompClient = null;
-var endpoint = "https://smart-dashboard.herokuapp.com/alexa";
-//var endpoint = "http://localhost:8080/alexa";
+//var endpoint = "https://smart-dashboard.herokuapp.com/alexa";
+var endpoint = "http://localhost:8080/alexa";
 
 // address for actions with user page
 var userSubscribeAddress = "/topic/user/";
 
-var footbalSubscribeAddress = "/topic/football";
+var footballSubscribeAddress = "/topic/football";
 
 var requestConfigAddress = "/app/start_config/";
 var requestConfigTimerId;
 
 function authorization(username){
     let request = new XMLHttpRequest();
-    //let address = 'http://localhost:8080/authorization/' + username;
-    let address = 'https://smart-dashboard.herokuapp.com/authorization/' + username;
+    let address = 'http://localhost:8080/authorization/' + username;
+    //let address = 'https://smart-dashboard.herokuapp.com/authorization/' + username;
     request.open('GET', address, true);
     request.send();
     request.onreadystatechange = function() {
@@ -84,6 +84,9 @@ function onCommandReceived(frame) {
             case 'SET_LOYALTY_POINTS':
                 setLoyaltyPoints(alexaCommand.context);
                 break;
+            case 'OPEN_CARTOON':
+                openVideo("https://ncdemo18.github.io/video");
+                break;
             case 'OPEN_FOOTBALL':
                 //TODO: copy video
                 openVideo("http://ncdemo18.github.io/footbal");
@@ -99,7 +102,7 @@ function onCommandReceived(frame) {
 }
 
 function footballSubscribe() {
-    stompClient.subscribe(footbalSubscribeAddress, onFootballScoreReceived);
+    stompClient.subscribe(footballSubscribeAddress, onFootballScoreReceived);
 }
 
 function onFootballScoreReceived(frame){
