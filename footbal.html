@@ -247,14 +247,29 @@
             margin-bottom: 0;
         }
     </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+<div class="footbal">
+    <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/9_bHKUOPH9k?rel=0&amp;controls=1&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>-->
+    <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/nTFgw6Meq-s?autoplay=1&showinfo=0&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/tHkNCfNIJSI?autoplay=1&showinfo=0&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <dialog id="confirm-delete" class="site-dialog">
+        <header class="dialog-header">
+            <h1>Please Confirm</h1>
+        </header>
+        <div class="dialog-content">
+            <img class="t-shirt" style="width: 100%" src="./img/o2.jpg"/>
+            <p>Anthony Watson just scored a try for England! Show your team spirit by buying a Watson jersey!</p>
+        </div>
+        <div class="btn-group cf">
+            <button class="btn btn-cancel" id="cancel">Cancel</button>
+        </div>
+    </dialog>
+</div>
 <script>
-    var endpoint = "http://localhost:8080/alexa";
+    var endpoint = "http://alexa-control-panel.herokuapp.com/alexa";
     var footballSubscribeAddress = "/topic/football";
 
     var accountDeleteDialog = jQuery('#confirm-delete'), transition;
@@ -262,13 +277,13 @@
     function setFootball(value){
         if(value === "arsenal") {
             jQuery(".t-shirt").attr("src","./img/o2.jpg");
-            jQuery(accountDeleteDialog[0]).showModal();
+            accountDeleteDialog[0].showModal();
             transition = window.setTimeout(function () {
                 accountDeleteDialog.addClass('dialog-scale');
             }, 0.5);
         } else if (value === "manchester") {
             jQuery(".t-shirt").attr("src","http://image2.kbobject.com/mufc-221084.jpg?width=170&height=170&quality=95")
-            jQuery(accountDeleteDialog[0]).showModal();
+            accountDeleteDialog[0].showModal();
             transition = window.setTimeout(function () {
                 accountDeleteDialog.addClass('dialog-scale');
             }, 0.5);
@@ -325,22 +340,6 @@
        )
     });*/
 </script>
-<div class="footbal">
-    <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/9_bHKUOPH9k?rel=0&amp;controls=1&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>-->
-    <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/nTFgw6Meq-s?autoplay=1&showinfo=0&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/tHkNCfNIJSI?autoplay=1&showinfo=0&controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    <dialog id="confirm-delete" class="site-dialog">
-        <header class="dialog-header">
-            <h1>Please Confirm</h1>
-        </header>
-        <div class="dialog-content">
-            <img class="t-shirt" style="width: 100%" src="./img/o2.jpg"/>
-            <p>Anthony Watson just scored a try for England! Show your team spirit by buying a Watson jersey!</p>
-        </div>
-        <div class="btn-group cf">
-            <button class="btn btn-cancel" id="cancel">Cancel</button>
-        </div>
-    </dialog>
-</div>
+
 </body>
 </html>
