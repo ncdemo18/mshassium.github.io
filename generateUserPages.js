@@ -4,8 +4,8 @@ var isGeneratePages = false;
 
 function generateHtmlPage(content) {
     isGeneratePages = true;
-    imageBackgroundPrefix += content.location.locationName + "/bg/";
     document.title = content.login;
+
     let ticketPanelElement = document.getElementById("ticket_panel_img_id");
     let ticketCountElement = document.getElementById("ticket_count_img_id");
 
@@ -14,7 +14,9 @@ function generateHtmlPage(content) {
 
     //TODO: real score in db, print number instead picture
     setProperty(ticketCountElement, 'src', imageBackgroundPrefix + "Passes Button - " + content.countTickets + ".png");
-    
+
+    imageBackgroundPrefix += content.location.locationName + "/bg/";
+
     let pageContainer = document.getElementById("pt-main");
     for(let i = 0; i < content.pages.length; i++) {
         pageContainer.appendChild(generateUserPage(content.pages[i], i + 1));
