@@ -1,10 +1,15 @@
 var imageBackgroundPrefix = "mockup/";
 var isFootballSubscribe = false; 
 var isGeneratePages = false;
+var userName = "";
+var currentLocationName = "";
+
+
 
 function generateHtmlPage(content) {
     isGeneratePages = true;
-    document.title = content.login;
+    userName = content.firstName + " " + content.lastName;
+    document.title = userName;
 
     let ticketPanelElement = document.getElementById("ticket_panel_img_id");
     let ticketCountElement = document.getElementById("ticket_count_img_id");
@@ -16,6 +21,7 @@ function generateHtmlPage(content) {
     setProperty(ticketCountElement, 'src', imageBackgroundPrefix + "Passes Button - " + content.countTickets + ".png");
 
     imageBackgroundPrefix += content.location.locationName + "/bg/";
+    currentLocationName = content.location.locationName;
 
     let pageContainer = document.getElementById("pt-main");
     for(let i = 0; i < content.pages.length; i++) {
@@ -35,8 +41,11 @@ function generateUserPage(pageInfo, numberPage) {
                 pageElement.appendChild(createTimeBlock(block.param));
                 pageElement.appendChild(createDateBlock(block.param));
                 break;
-            case "loyalty_block":
-                pageElement.appendChild(createLoyaltyPointsBlock(block.param));
+            case "loyalty_block loyalty_up":
+                pageElement.appendChild(createLoyaltyPointsBlock(block.param, "loyalty_up"));
+                break;
+            case "loyalty_block loyalty_down":
+                pageElement.appendChild(createLoyaltyPointsBlock(block.param, "loyalty_down"));
                 break;
             case "scroll_image":
                 pageElement.appendChild(
@@ -51,6 +60,13 @@ function generateUserPage(pageInfo, numberPage) {
             case "score_block":
                 pageElement.appendChild(createPlayScoreBlock(block.param));
                 isFootballSubscribe = true;
+                break;
+            case "user_name":
+                pageElement.appendChild(createUserNameBlock(userName));
+                break;
+            case "temperature_block":
+                pageElement.appendChild(createTemperatureBlock(block.param));
+                break;
         }
     }
     return pageElement;
@@ -76,6 +92,15 @@ function createDateBlock(position) {
     return dateBlock;
 }
 
+function createTemperatureBlock(value) {
+    return createEmptyDivContainer("temperature_block", value);
+}
+
+function createUserNameBlock(name) {
+    return createEmptyDivContainer("user_name", name);
+}
+
+
 function createPlayScoreBlock(scoreValue) {
     return createEmptyDivContainer("score_block", scoreValue);
 }
@@ -96,9 +121,9 @@ function createBackgroundScrollLinkImage(path) {
 }
 
 
-function createLoyaltyPointsBlock(loyaltyPointsValue) {
+function createLoyaltyPointsBlock(loyaltyPointsValue, positionClass) {
     let linkToLoyaltyHtmlPage = createLink("https://ncdemo18.github.io/loyalty_points.html", "loyalty_value", loyaltyPointsValue);
-    let loyaltyContainer = createEmptyDivContainer("loyalty_point_block");
+    let loyaltyContainer = createEmptyDivContainer("loyalty_point_block " + positionClass);
     loyaltyContainer.appendChild(linkToLoyaltyHtmlPage);
     return loyaltyContainer;
 }

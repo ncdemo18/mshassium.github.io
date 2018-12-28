@@ -2,9 +2,8 @@
 'use strict';
 
 var stompClient = null;
-var endpoint = "https://alexa-control-panel.herokuapp.com/alexa";
-//var endpoint = "http://localhost:8080/alexa";
-//var endpoint = "http://localhost:8080/alexa";
+//var endpoint = "https://alexa-control-panel.herokuapp.com/alexa";
+var endpoint = "http://localhost:8080/alexa";
 
 // address for actions with user page
 var userSubscribeAddress = "/topic/user/";
@@ -16,9 +15,8 @@ var requestConfigTimerId;
 
 function authorization(username){
     let request = new XMLHttpRequest();
-    //let address = 'http://localhost:8080/authorization/' + username;
-    //let address = 'http://localhost:8080/authorization/' + username;
-    let address = 'https://alexa-control-panel.herokuapp.com/authorization/' + username;
+    let address = 'http://localhost:8080/authorization/' + username;
+    //let address = 'https://alexa-control-panel.herokuapp.com/authorization/' + username;
     request.open('GET', address, true);
     request.send();
     request.onreadystatechange = function() {
@@ -92,9 +90,12 @@ function onCommandReceived(frame) {
             case 'OPEN_FOOTBALL':
                 //TODO: copy video
                 openVideo("http://ncdemo18.github.io/footbal");
-                openVideo("https://hangouts.google.com/call/wj64ayyszfgtnaz462gdsbjx3me")
+                openVideo("https://hangouts.google.com/call/wj64ayyszfgtnaz462gdsbjx3me");
+                break;
+            case 'CHANGE_TEMPERATURE':
+                change_temperature(alexaCommand.context);
         }
-    } else if(isGeneratePages == false) {
+    } else if(isGeneratePages === false) {
         if(requestConfigTimerId !== undefined) {
             clearInterval(requestConfigTimerId);
         }

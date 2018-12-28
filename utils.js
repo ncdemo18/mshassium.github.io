@@ -53,16 +53,22 @@ function pathToString(path) {
     return strPath + fileName;
 }
 
-function setLocation(locationName) {
+function setLocation(newLocationName) {
     let images = document.getElementsByTagName("img");
     for(let i = 0; i < images.length; i++) {
         let path = images[i].src.split("/");
-        let indexLocationFolder = findLocationFolder(path);
+        for(let j = 0; j < path.length; j++) {
+            if(path[j] === currentLocationName) {
+                path[j] = newLocationName;
+            }
+        }
+        /*let indexLocationFolder = findLocationFolder(path);
         if(indexLocationFolder > -1){
             path[indexLocationFolder + 1] = locationName;
-        }
+        }*/
         images[i].src = pathToString(path);
     }
+    currentLocationName = newLocationName;
 }
 
 function setFootballScore(score) {
@@ -117,6 +123,12 @@ function addLoyaltyPoints(countAddPoints) {
 function openVideo(url) {
     window.open(url, '_blank');
 }
+
+function change_temperature(value) {
+    console.log("temperature: " + value);
+    document.getElementsByClassName("temperature_block")[0].textContent = value + "°";
+}
+
 
 function hideLogin(){
     let loginBlock = document.getElementById("loginBlock");
