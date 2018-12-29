@@ -93,6 +93,7 @@ function onCommandReceived(frame) {
                 //openVideo("https://hangouts.google.com/call/wj64ayyszfgtnaz462gdsbjx3me");
                 break;
             case 'CHANGE_TEMPERATURE':
+                hideAvailableTickets();
                 change_temperature(alexaCommand.context);
         }
     } else if(isGeneratePages === false) {
