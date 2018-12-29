@@ -95,6 +95,9 @@ function onCommandReceived(frame) {
                 break;
             case 'CHANGE_TEMPERATURE':
                 change_temperature(alexaCommand.context);
+                break;
+            case 'OPEN_DMP':
+                openVideo("http://salesengnaas2.ebcshroom2.openshift.sdntest.netcracker.com")
         }
     } else if(isGeneratePages === false) {
         if(requestConfigTimerId !== undefined) {
