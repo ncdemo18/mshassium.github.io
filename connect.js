@@ -90,7 +90,7 @@ function onCommandReceived(frame) {
             case 'OPEN_FOOTBALL':
                 //TODO: copy video
                 openVideo("http://ncdemo18.github.io/footbal");
-                openVideo("https://hangouts.google.com/call/wj64ayyszfgtnaz462gdsbjx3me");
+                //openVideo("https://hangouts.google.com/call/wj64ayyszfgtnaz462gdsbjx3me");
                 break;
             case 'CHANGE_TEMPERATURE':
                 change_temperature(alexaCommand.context);

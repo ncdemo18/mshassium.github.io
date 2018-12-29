@@ -4,8 +4,6 @@ var isGeneratePages = false;
 var userName = "";
 var currentLocationName = "";
 
-
-
 function generateHtmlPage(content) {
     isGeneratePages = true;
     userName = content.firstName + " " + content.lastName;
@@ -16,6 +14,9 @@ function generateHtmlPage(content) {
 
     let imageNameTicketPanel = "Passes Panel - " + content.login[0].toUpperCase() + content.login.slice(1);
     setProperty(ticketPanelElement, 'src', imageBackgroundPrefix + imageNameTicketPanel + ".png");
+    if(content.login === "sam") {
+        showTicketPanel();
+    }
 
     //TODO: real score in db, print number instead picture
     setProperty(ticketCountElement, 'src', imageBackgroundPrefix + "Passes Button - " + content.countTickets + ".png");
@@ -93,7 +94,11 @@ function createDateBlock(position) {
 }
 
 function createTemperatureBlock(value) {
-    return createEmptyDivContainer("temperature_block", value);
+    let temperatureContainer = createEmptyDivContainer("");
+    temperatureContainer.appendChild(createEmptyDivContainer("temperature_block", "19°"));
+    temperatureContainer.appendChild(createEmptyDivContainer("temperature_block", value));
+    temperatureContainer.appendChild(createEmptyDivContainer("temperature_block", "19°"));
+    return temperatureContainer;
 }
 
 function createUserNameBlock(name) {
@@ -119,7 +124,6 @@ function createBackgroundScrollLinkImage(path) {
     imageContainer.appendChild(image);
     return imageContainer;
 }
-
 
 function createLoyaltyPointsBlock(loyaltyPointsValue, positionClass) {
     let linkToLoyaltyHtmlPage = createLink("https://ncdemo18.github.io/loyalty_points.html", "loyalty_value", loyaltyPointsValue);

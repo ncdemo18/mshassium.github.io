@@ -66,10 +66,22 @@ body {
 
 .temperature_block{
 	position: absolute;
-	font-size: 55px;
-	top: 190px;
-	left: 22%;
+	left: 27.2%;
 	z-index: 10;
+	color: #7f8c97;
+	font-size: 39px;
+}
+
+.temperature_block:nth-child(1) {
+	top: 725px;
+}
+
+.temperature_block:nth-child(2) {
+	top: 780px;
+}
+
+.temperature_block:nth-child(3) {
+	top: 837px;
 }
 
 /*date - time*/
@@ -83,7 +95,7 @@ body {
 .time_block_left {
 	font-size: 60px;
 	top: 140px;
-	left: 6%;
+	left: 11%;
 }
 
 .time_block_right {

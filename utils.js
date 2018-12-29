@@ -5,12 +5,11 @@ function getFormatTime() {
     let date = new Date();
     let hours = date.getHours();
     let minutes = date.getMinutes();
-    let ampm = hours > 12 ? "pm" : "am";
 
     hours = hours < 10 ? "0" + hours : hours;
     minutes = minutes < 10 ? "0" + minutes : minutes;
 
-    return hours + ":" + minutes + "     " + ampm;
+    return hours + ":" + minutes;
 }
 
 function getFormatDate() {
@@ -126,7 +125,9 @@ function openVideo(url) {
 
 function change_temperature(value) {
     console.log("temperature: " + value);
-    document.getElementsByClassName("temperature_block")[0].textContent = value + "°";
+    let temperatureBlock = document.getElementsByClassName("temperature_block")[1];
+    temperatureBlock.textContent = value + "°";
+    //document.getElementsByClassName("temperature_block")[0].textContent = value + "°";
 }
 
 
