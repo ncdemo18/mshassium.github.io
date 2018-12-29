@@ -60,6 +60,7 @@ function onCommandReceived(frame) {
                 break;
             case 'SET_NUMBER_PAGE':
                 console.log("set number");
+                hideAvailableTickets();
                 nextPage(alexaCommand.context);
                 break;
             case 'SET_LOCATION':
@@ -93,7 +94,6 @@ function onCommandReceived(frame) {
                 //openVideo("https://hangouts.google.com/call/wj64ayyszfgtnaz462gdsbjx3me");
                 break;
             case 'CHANGE_TEMPERATURE':
-                hideAvailableTickets();
                 change_temperature(alexaCommand.context);
         }
     } else if(isGeneratePages === false) {
