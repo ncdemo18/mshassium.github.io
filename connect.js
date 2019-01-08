@@ -56,11 +56,14 @@ function onCommandReceived(frame) {
     if(alexaCommand.commandType !== undefined) {
         switch(alexaCommand.commandType){
             case 'NEXT_PAGE':
+                hideAvailableTickets();
+                hideTicketPanel();
                 nextPage();
                 break;
             case 'SET_NUMBER_PAGE':
                 console.log("set number");
                 hideAvailableTickets();
+                hideTicketPanel();
                 nextPage(alexaCommand.context);
                 break;
             case 'SET_LOCATION':

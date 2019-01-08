@@ -95,9 +95,9 @@ function createDateBlock(position) {
 
 function createTemperatureBlock(value) {
     let temperatureContainer = createEmptyDivContainer("");
-    temperatureContainer.appendChild(createEmptyDivContainer("temperature_block", "19°"));
+    temperatureContainer.appendChild(createEmptyDivContainer("temperature_block", "21°"));
     temperatureContainer.appendChild(createEmptyDivContainer("temperature_block", value));
-    temperatureContainer.appendChild(createEmptyDivContainer("temperature_block", "19°"));
+    temperatureContainer.appendChild(createEmptyDivContainer("temperature_block", "21°"));
     return temperatureContainer;
 }
 

@@ -73,15 +73,18 @@ body {
 }
 
 .temperature_block:nth-child(1) {
-	top: 725px;
+	/*top: 725px;*/
+	top: 685px;
 }
 
 .temperature_block:nth-child(2) {
-	top: 780px;
+	/*top: 780px;*/
+	top: 740px;
 }
 
 .temperature_block:nth-child(3) {
-	top: 837px;
+	/*top: 837px;*/
+	top: 795px;
 }
 
 /*date - time*/

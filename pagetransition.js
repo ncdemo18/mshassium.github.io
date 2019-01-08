@@ -25,7 +25,7 @@ function isCorrectPageNumber(pageNumber) {
 
 function nextPage(pageNumber) {
 
-    if (isAnimating) {
+    if (isAnimating || pageNumber === currentNumber) {
         return false;
     }
 
