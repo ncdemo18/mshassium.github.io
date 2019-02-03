@@ -177,7 +177,7 @@ body {
 
 .ticket_panel_img {
 	position: absolute;
-	left: 89%;
+	right: 0;
 	max-height: 100vh;
 	overflow-y: scroll;
 	z-index: 2;
